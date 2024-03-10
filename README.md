@@ -1,6 +1,6 @@
 # Flashback Quizzes
 
-This project contains some flashback quiz ides.
+This project contains some flashback quiz ideas.
 
 ## Files & Directories
 
