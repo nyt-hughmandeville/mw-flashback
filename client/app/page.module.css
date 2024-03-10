@@ -1,0 +1,45 @@
+.box_events {
+  margin: 0 auto;
+  width: 600px;
+  text-align: center;
+}
+
+.box_event {
+  width: 400px;
+  background: #e3e0d5;
+  border-radius: 5px;
+  padding: 10px 2px 6px 2px;
+  margin: 10px auto;
+}
+
+.box_event img {
+  display: inline-block;
+  margin-right: 10px;
+  width: 100px;
+}
+.box_event .description {
+  display: inline-block;
+  vertical-align: top;
+  width: 270px;
+  text-align: left;
+  font-family: "nyt-franklin", arial, helvetica, sans-serif;
+}
+
+.box_drop {
+  width: 440px;
+  height: 400px;
+  background: #ddbd6c;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.box_drop:hover {
+  background: #ceae5d;
+}
+
+.label {
+  color: #666666;
+  font-size: 16px;
+  font-family: "nyt-franklin", arial, helvetica, sans-serif;
+}

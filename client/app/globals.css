@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "nyt-karnak";
+  src: url(https://g1.nyt.com/fonts/family/karnak/karnak-normal-400.woff) format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+
+html,
+body {
+  background: #f2f1e7;
+  color: #333333;
+}
+
+.button {
+  background: #5d72c9;
+  color: #ffffff;
+  cursor: pointer;
+}
+.correct {
+  background: #5cb887;
+  color: #ffffff;
+}
+
+.highlight {
+  background: #f9d988;
+}
+
+.incorrect {
+  background: #d25353;
+  color: #ffffff;
+}
+
+.label {
+  color: #666666;
+}
+.placed {
+  background: #b1aea4;
+  color: #ffffff;
+}
+
+.event_box {
+  background: #e3e0d5;
+  color: #333333;
+}
