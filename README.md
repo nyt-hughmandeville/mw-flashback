@@ -42,9 +42,8 @@ make dep-update
 Depends on [react-select](https://www.npmjs.com/package/react-select).
 
 ```sh
+pnpm add pretty-lights
 pnpm add react-select
-pnpm add react-dnd
-pnpm add react-dnd-html5-backend
 ```
 
 ## Project Setup
