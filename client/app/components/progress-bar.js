@@ -15,9 +15,11 @@ export default function ProgressBar({index, events}) {
 
   return (
     <div className={styles.progress_bar}>
-      {index + 1} of {events.length}
+      <div className={styles.index}>
+        {index + 1} of {events.length}
+      </div>
       {markers}
-      {points} Points
+      <div className={styles.points}>{points} Points</div>
     </div>
   );
 }
