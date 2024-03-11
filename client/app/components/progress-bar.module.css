@@ -1,0 +1,33 @@
+.progress_bar {
+  margin: 10px auto;
+  text-align: center;
+  font-weight: 700;
+  font-family: "nyt-franklin", arial, helvetica, sans-serif;
+  font-size: 16px;
+  color: #333;
+  vertical-align: middle;
+}
+
+.green {
+  background: #5cb887;
+}
+.red {
+  background: #d25353;
+}
+
+.grey {
+  background: #b6b3a4;
+}
+
+.selected {
+  border: 2px solid #5d72c9;
+}
+
+.marker {
+  display: inline-block;
+  width: 45px;
+  height: 7px;
+  margin: 0 5px;
+  border-radius: 5px;
+  vertical-align: middle;
+}
