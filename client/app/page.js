@@ -1,10 +1,15 @@
 "use client";
 
 import data from "../data/quiz-01.json";
+import ProgressBar from "./components/progress-bar";
 import styles from "./page.module.css";
+import {useState} from "react";
 
 export default function Home() {
-  const events = data.map((event) => {
+  const [index, setIndex] = useState(0);
+  const [events, setEvents] = useState(data);
+
+  const timeline = data.map((event) => {
     return (
       <div
         key={event.id}
@@ -22,9 +27,10 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
+      <ProgressBar events={events} index={index} />
       <div className={styles.box_events}>
         <div className={styles.label}>BEFORE</div>
-        {events}
+        {timeline}
         <div
           onDrop={(e) => {
             e.preventDefault();
@@ -32,7 +38,6 @@ export default function Home() {
           }}
           onDragOver={(e) => {
             e.preventDefault();
-            //console.log("Dragged over: ", e);
           }}
           className={styles.box_answers}
         >
