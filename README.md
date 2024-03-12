@@ -62,3 +62,4 @@ npx create-next-app@latest client --use-pnpm --js --app
 - Art Quiz
 - Car Quiz
 - Food Quiz
+- Movie Quiz
