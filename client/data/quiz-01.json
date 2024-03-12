@@ -5,7 +5,7 @@
         "displayYear": "1989",
         "description": "Tim Berners-Lee writes a proposal called “Information Management.” It becomes the World Wide Web.",
         "detail": "A Supreme Court decision could <a href=\"https://www.nytimes.com/2024/02/26/us/politics/supreme-court-social-media-texas-florida.html\">fundamentally alter the regulation of speech on the internet</a>.",
-        "image": "https://static01.nyt.com/images/2024/03/01/multimedia/01FBQ-Computer/01FBQ-Computer-square320.jpg",
+        "image": "images/quiz-01-computer-320.jpg",
         "points": 0,
         "status": "start"
     },
@@ -15,7 +15,7 @@
         "displayYear": "1200s",
         "description": "The Dutch first use metal blades on ice skates. In the winter, their frozen canals became high-speed highways.",
         "detail": "Chicago's ice rink in Millennium Park was not as sturdy, <a href=\"https://www.nytimes.com/2024/02/27/us/chicago-winter-warm-weather.html\">melting in February</a> because of the heat.",
-        "image": "https://static01.nyt.com/images/2024/03/01/multimedia/01FBQ-ice/01FBQ-ice-square320.jpg",
+        "image": "images/quiz-01-ice-320.jpg",
         "points": 3,
         "status": "unanswered"
     },
