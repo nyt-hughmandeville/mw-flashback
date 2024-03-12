@@ -37,7 +37,7 @@ export default function ProgressBar({index, events}) {
   return (
     <div className={styles.progress_bar}>
       <div className={styles.index}>
-        {markerIndex} of {events.length - 1}
+        {markerIndex + 1} of {events.length - 1}
       </div>
       {markers}
       <div className={styles.points}>{points} Points</div>
