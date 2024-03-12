@@ -59,6 +59,6 @@ npx create-next-app@latest client --use-pnpm --js --app
 - Music Quiz
 - Art Quiz
 - Hard Fork Quiz
-- Art Quiz
 - Car Quiz
+- Movie Quiz
 - Broadway Theater

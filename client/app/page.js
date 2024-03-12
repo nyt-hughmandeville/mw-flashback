@@ -20,8 +20,10 @@ export default function Home() {
         }}
       >
         <div className={styles.year}>{event.displayYear}</div>
-        <img src={event.image} alt="" />
-        <div className={styles.description}>{event.description}</div>
+        <div className={styles.event_data}>
+          <img src={event.image} alt="" />
+          <div className={styles.description}>{event.description}</div>
+        </div>
       </div>
     );
   });

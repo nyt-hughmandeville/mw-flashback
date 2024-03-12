@@ -8,15 +8,10 @@
   width: 400px;
   background: #e3e0d5;
   border-radius: 5px;
-  padding: 10px 2px 6px 2px;
-  margin: 10px auto;
+  padding: 15px 2px 11px 2px;
+  margin: 20px auto;
 }
 
-.box_event img {
-  display: inline-block;
-  margin-right: 10px;
-  width: 100px;
-}
 .box_event .description {
   display: inline-block;
   vertical-align: top;
@@ -56,8 +51,29 @@
 }
 
 .year {
-  background: green;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: -28px;
+  background: #5cb887;
+  text-align: center;
   color: white;
-  width: 80px;
+  padding: 4px 8px;
   border-radius: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  z-index: 100;
+}
+
+.box_event img {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10px;
+  width: 100px;
+}
+
+.event_data {
+  position: relative;
+  padding: 0;
+  margin-top: -20px;
 }
