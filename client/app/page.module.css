@@ -54,3 +54,10 @@
   color: green;
   border: 1px solid blue;
 }
+
+.year {
+  background: green;
+  color: white;
+  width: 80px;
+  border-radius: 10px;
+}

@@ -19,6 +19,7 @@ export default function Home() {
           e.dataTransfer.setData("text/plain", event.id);
         }}
       >
+        <div className={styles.year}>{event.displayYear}</div>
         <img src={event.image} alt="" />
         <div className={styles.description}>{event.description}</div>
       </div>
@@ -41,7 +42,7 @@ export default function Home() {
           }}
           className={styles.box_answers}
         >
-          TBD
+          &nbsp;
         </div>
         <div className={styles.label}>AFTER</div>
       </div>
