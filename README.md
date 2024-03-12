@@ -61,3 +61,4 @@ npx create-next-app@latest client --use-pnpm --js --app
 - Hard Fork Quiz
 - Art Quiz
 - Car Quiz
+- Food Quiz
