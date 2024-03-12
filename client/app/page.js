@@ -1,12 +1,12 @@
 "use client";
 
-import data from "../data/quiz-02.json";
+import data from "../data/quiz-01.json";
 import ProgressBar from "./components/progress-bar";
 import styles from "./page.module.css";
 import {useState} from "react";
 
 export default function Home() {
-  const [index, setIndex] = useState(0);
+  const [index, setIndex] = useState(1);
   const [events, setEvents] = useState(data);
 
   const timeline = data.map((event) => {
