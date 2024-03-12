@@ -25,7 +25,7 @@
         "displayYear": "1783",
         "description": "Soldiers mutiny against Congress in Philadelphia, seeking back pay. Lawmakers flee and decide to place the capital on federal land.",
         "detail": "Pennsylvania is <a href=\"https://www.nytimes.com/2024/02/29/us/politics/pennsylania-elections-misinformation-task-force.html\">planning a task force</a> to prevent election intimidation and disruption.",
-        "image": "https://static01.nyt.com/images/2024/03/01/multimedia/01FBQ-Philly/01FBQ-Philly-square320.jpg",
+        "image": "images/quiz-01-philly-320.jpg",
         "points": 3,
         "status": "unanswered"
     },
@@ -35,7 +35,7 @@
         "displayYear": "1967",
         "description": "Unhappy with the slow tempo, a music executive tries to stop Louis Armstrong from recording his next song: \"What a Wonderful World.\"",
         "detail": "A new musical about Armstrong &mdash; called, yes, \"A Wonderful World\" &mdash; will <a href=\"https://www.nytimes.com/2024/02/28/theater/louis-armstrong-wonderful-world-broadway.html\">debut on Broadway this fall</a>.",
-        "image": "https://static01.nyt.com/images/2024/03/01/multimedia/01FBQ-Louie/01FBQ-Louie-square320.jpg",
+        "image": "images/quiz-01-louie-320.jpg",
         "points": 3,
         "status": "unanswered"
     }
