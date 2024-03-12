@@ -6,7 +6,8 @@
         "description": "Tim Berners-Lee writes a proposal called “Information Management.” It becomes the World Wide Web.",
         "detail": "A Supreme Court decision could <a href=\"https://www.nytimes.com/2024/02/26/us/politics/supreme-court-social-media-texas-florida.html\">fundamentally alter the regulation of speech on the internet</a>.",
         "image": "https://static01.nyt.com/images/2024/03/01/multimedia/01FBQ-Computer/01FBQ-Computer-square320.jpg",
-        "points": 0
+        "points": 0,
+        "status": "start"
     },
     {
         "id": 2,
@@ -15,7 +16,8 @@
         "description": "The Dutch first use metal blades on ice skates. In the winter, their frozen canals became high-speed highways.",
         "detail": "Chicago's ice rink in Millennium Park was not as sturdy, <a href=\"https://www.nytimes.com/2024/02/27/us/chicago-winter-warm-weather.html\">melting in February</a> because of the heat.",
         "image": "https://static01.nyt.com/images/2024/03/01/multimedia/01FBQ-ice/01FBQ-ice-square320.jpg",
-        "points": 3
+        "points": 3,
+        "status": "unanswered"
     },
     {
         "id": 3,
@@ -24,7 +26,8 @@
         "description": "Soldiers mutiny against Congress in Philadelphia, seeking back pay. Lawmakers flee and decide to place the capital on federal land.",
         "detail": "Pennsylvania is <a href=\"https://www.nytimes.com/2024/02/29/us/politics/pennsylania-elections-misinformation-task-force.html\">planning a task force</a> to prevent election intimidation and disruption.",
         "image": "https://static01.nyt.com/images/2024/03/01/multimedia/01FBQ-Philly/01FBQ-Philly-square320.jpg",
-        "points": 3
+        "points": 3,
+        "status": "unanswered"
     },
     {
         "id": 4,
@@ -33,6 +36,7 @@
         "description": "Unhappy with the slow tempo, a music executive tries to stop Louis Armstrong from recording his next song: \"What a Wonderful World.\"",
         "detail": "A new musical about Armstrong &mdash; called, yes, \"A Wonderful World\" &mdash; will <a href=\"https://www.nytimes.com/2024/02/28/theater/louis-armstrong-wonderful-world-broadway.html\">debut on Broadway this fall</a>.",
         "image": "https://static01.nyt.com/images/2024/03/01/multimedia/01FBQ-Louie/01FBQ-Louie-square320.jpg",
-        "points": 3
+        "points": 3,
+        "status": "unanswered"
     }
 ]
