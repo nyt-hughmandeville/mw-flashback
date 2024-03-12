@@ -8,25 +8,25 @@
   vertical-align: middle;
 }
 
-.green {
+.correct {
   background: #5cb887;
 }
-.red {
+.incorrect {
   background: #d25353;
 }
 
-.grey {
-  background: #b6b3a4;
+.unanswered {
+  background: #e2e0d6;
 }
 
-.selected {
-  border: 2px solid #5d72c9;
+.active {
+  border: 2px solid #6171c3;
 }
 
 .marker {
   display: inline-block;
-  width: 45px;
-  height: 7px;
+  width: 50px;
+  height: 8px;
   margin: 0 5px;
   border-radius: 5px;
   vertical-align: middle;
