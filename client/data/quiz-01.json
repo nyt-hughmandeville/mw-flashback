@@ -38,5 +38,55 @@
         "image": "images/quiz-01-louie-320.jpg",
         "points": 3,
         "status": "unanswered"
+    },
+    {
+        "id": 5,
+        "year": 1925,
+        "displayYear": "1925-6",
+        "description": "Studying to become a doctor, Frida Kahlo is hospitalized after a bus accident. To occupy herself, she begins to paint.",
+        "detail": "Kahlo's work is often associated with Surrealism, <a href=\"https://www.nytimes.com/2024/02/28/arts/design/surrealism-centennial-pompidou-brussels.html\">which turns 100 this year</a>.",
+        "image": "images/quiz-01-frida-320.jpg",
+        "points": 3,
+        "status": "unanswered"
+    },
+    {
+        "id": 6,
+        "year": 1947,
+        "displayYear": "1947-8",
+        "description": "Angering his hospital, Sidney Farber first uses chemicals to treat kids with leukemia. Some enter bried remission, showing the promise of chemotherapy.",
+        "detail": "Young women with breast cancer can face a difficult choice: Chemotherapy may help save their lives, but <a href=\"https://www.nytimes.com/2024/02/28/well/live/pregnancy-freezing-eggs-cancer-fertility.html\">keep them from having children</a>.",
+        "image": "images/quiz-01-farber-320.jpg",
+        "points": 4,
+        "status": "unanswered"
+    },
+    {
+        "id": 7,
+        "year": 1861,
+        "displayYear": "1861",
+        "description": "Deeply religious, John Wanamaker wants this clothing store to be moral and honest. To avoid haggling, he adopts a simpler system: price tags.",
+        "detail": "The fast food chain Wendy's said it would test \"<a href=\"https://www.nytimes.com/2024/02/27/business/wendys-prices-inflation.html\">dynamic pricing</a>\" for its fast food, adding later that is had no plans to raise prices during busy periods.",
+        "image": "images/quiz-01-wannamaker-320.jpg",
+        "points": 4,
+        "status": "unanswered"
+    },
+    {
+        "id": 8,
+        "year": 1464,
+        "displayYear": "1464-5",
+        "description": "The printing press first arrives near Rome. Instead of heavy German lettering, Italians will develop more readable fonts, including roman and italic.",
+        "detail": "One Italian typeface, Bodoni, has become ubiquitous, and is <a href=\"https://www.nytimes.com/2024/02/29/books/bodoni-museum-typeface.html\">probably lurking in your bookshelf</a>.",
+        "image": "images/quiz-01-printing-320.jpg",
+        "points": 4,
+        "status": "unanswered"
+    },
+    {
+        "id": 9,
+        "year": 1372,
+        "displayYear": "1372",
+        "description": "After 200 years of construction delays, a cathedral's bell tower - still leaning - is completed in Pisa",
+        "detail": "Egyptian plans to <a href=\"https://www.nytimes.com/2024/02/01/arts/design/resurfacing-pyramid-ignites-debate.html\">resurface an ancient pyramid</a> have drawn criticism, and were compared to straightening the Tower of Pisa.",
+        "image": "images/quiz-01-pisa-320.jpg",
+        "points": 4,
+        "status": "unanswered"
     }
 ]
