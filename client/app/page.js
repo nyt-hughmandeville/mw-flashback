@@ -1,6 +1,6 @@
 "use client";
 
-import data from "../data/quiz-01.json";
+import data from "../data/nyt-2024-03-01.json";
 import ProgressBar from "./components/progress-bar";
 import styles from "./page.module.css";
 import {useState} from "react";
