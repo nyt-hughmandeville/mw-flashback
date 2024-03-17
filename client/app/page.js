@@ -7,12 +7,13 @@ import styles from "./page.module.css";
 import {useState} from "react";
 
 export default function Home() {
-  const [index, setIndex] = useState(1);
+  const [index, setIndex] = useState(9);
   const [events, setEvents] = useState(data);
 
   return (
     <main className={styles.main}>
       <ProgressBar events={events} index={index} />
+      <hr />
       <Timeline events={events} index={index} />
     </main>
   );
