@@ -2,26 +2,29 @@ import styles from "./timeline.module.css";
 
 // Timeline - Render timeline.
 export default function Timeline({index, events}) {
-  console.log("pwd: ", process.cwd());
+  console.log("index: ", index);
 
-  const timeline = events.map((event) => {
-    return (
-      <div
-        key={event.id}
-        className={styles.box_event}
-        draggable="true"
-        onDragStart={(e) => {
-          e.dataTransfer.setData("text/plain", event.id);
-        }}
-      >
-        <div className={styles.year}>{event.displayYear}</div>
-        <div className={styles.event_data}>
-          <img src={"images/" + event.image} alt="" />
-          <div className={styles.description}>{event.description}</div>
+  const timeline = events
+    .slice(0, index)
+    .sort(compareYear)
+    .map((event) => {
+      return (
+        <div
+          key={event.id}
+          className={styles.box_event}
+          draggable="true"
+          onDragStart={(e) => {
+            e.dataTransfer.setData("text/plain", event.id);
+          }}
+        >
+          <div className={styles.year}>{event.displayYear}</div>
+          <div className={styles.event_data}>
+            <img src={"images/" + event.image} alt="" />
+            <div className={styles.description}>{event.description}</div>
+          </div>
         </div>
-      </div>
-    );
-  });
+      );
+    });
 
   return (
     <div className={styles.box_events}>
@@ -42,4 +45,8 @@ export default function Timeline({index, events}) {
       <div className={styles.label}>AFTER</div>
     </div>
   );
+}
+
+function compareYear(e1, e2) {
+  return e1.year - e2.year;
 }
