@@ -1,0 +1,71 @@
+.box_events {
+  margin: 0 auto;
+  width: 600px;
+  text-align: center;
+}
+
+.box_event {
+  width: 400px;
+  background: #e3e0d5;
+  border-radius: 5px;
+  padding: 15px 2px 11px 2px;
+  margin: 20px auto;
+}
+
+.box_event .description {
+  display: inline-block;
+  vertical-align: top;
+  width: 270px;
+  text-align: left;
+  font-family: "nyt-imperial", georgia, "times new roman", times, serif;
+}
+
+.box_drop {
+  position: relative;
+  width: 380px;
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='8' ry='8' stroke='%23B1AEA4FF' stroke-width='4' stroke-dasharray='6%2c 10' stroke-dashoffset='5' stroke-linecap='square'/%3e%3c/svg%3e");
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 8px;
+  height: 65px;
+  color: #6171c3;
+  font-weight: 700;
+  font-size: 16px;
+  vertical-align: middle;
+}
+.box_drop:hover {
+}
+
+.label {
+  color: #666666;
+  font-size: 16px;
+  font-family: "nyt-franklin", arial, helvetica, sans-serif;
+}
+
+.year {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: -28px;
+  background: #5cb887;
+  text-align: center;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  z-index: 100;
+}
+
+.box_event img {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10px;
+  width: 100px;
+}
+
+.event_data {
+  position: relative;
+  padding: 0;
+  margin-top: -20px;
+}

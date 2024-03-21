@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "year": 1989,
+        "displayYear": "1989",
+        "description": "Tim Berners-Lee writes a proposal called “Information Management.” It becomes the World Wide Web.",
+        "detail": "A Supreme Court decision could <a href=\"https://www.nytimes.com/2024/02/26/us/politics/supreme-court-social-media-texas-florida.html\">fundamentally alter the regulation of speech on the internet</a>.",
+        "image": "nyt-2024-03-01-computer-320.jpg",
+        "points": 0,
+        "status": "start"
+    },
+    {
+        "id": 2,
+        "year": 1200,
+        "displayYear": "1200s",
+        "description": "The Dutch first use metal blades on ice skates. In the winter, their frozen canals became high-speed highways.",
+        "detail": "Chicago's ice rink in Millennium Park was not as sturdy, <a href=\"https://www.nytimes.com/2024/02/27/us/chicago-winter-warm-weather.html\">melting in February</a> because of the heat.",
+        "image": "nyt-2024-03-01-ice-320.jpg",
+        "points": 3,
+        "status": "unanswered"
+    },
+    {
+        "id": 3,
+        "year": 1783,
+        "displayYear": "1783",
+        "description": "Soldiers mutiny against Congress in Philadelphia, seeking back pay. Lawmakers flee and decide to place the capital on federal land.",
+        "detail": "Pennsylvania is <a href=\"https://www.nytimes.com/2024/02/29/us/politics/pennsylania-elections-misinformation-task-force.html\">planning a task force</a> to prevent election intimidation and disruption.",
+        "image": "nyt-2024-03-01-philly-320.jpg",
+        "points": 3,
+        "status": "unanswered"
+    },
+    {
+        "id": 4,
+        "year": 1967,
+        "displayYear": "1967",
+        "description": "Unhappy with the slow tempo, a music executive tries to stop Louis Armstrong from recording his next song: \"What a Wonderful World.\"",
+        "detail": "A new musical about Armstrong &mdash; called, yes, \"A Wonderful World\" &mdash; will <a href=\"https://www.nytimes.com/2024/02/28/theater/louis-armstrong-wonderful-world-broadway.html\">debut on Broadway this fall</a>.",
+        "image": "nyt-2024-03-01-louie-320.jpg",
+        "points": 3,
+        "status": "unanswered"
+    },
+    {
+        "id": 5,
+        "year": 1925,
+        "displayYear": "1925-6",
+        "description": "Studying to become a doctor, Frida Kahlo is hospitalized after a bus accident. To occupy herself, she begins to paint.",
+        "detail": "Kahlo's work is often associated with Surrealism, <a href=\"https://www.nytimes.com/2024/02/28/arts/design/surrealism-centennial-pompidou-brussels.html\">which turns 100 this year</a>.",
+        "image": "nyt-2024-03-01-frida-320.jpg",
+        "points": 3,
+        "status": "unanswered"
+    },
+    {
+        "id": 6,
+        "year": 1947,
+        "displayYear": "1947-8",
+        "description": "Angering his hospital, Sidney Farber first uses chemicals to treat kids with leukemia. Some enter bried remission, showing the promise of chemotherapy.",
+        "detail": "Young women with breast cancer can face a difficult choice: Chemotherapy may help save their lives, but <a href=\"https://www.nytimes.com/2024/02/28/well/live/pregnancy-freezing-eggs-cancer-fertility.html\">keep them from having children</a>.",
+        "image": "nyt-2024-03-01-farber-320.jpg",
+        "points": 4,
+        "status": "unanswered"
+    },
+    {
+        "id": 7,
+        "year": 1861,
+        "displayYear": "1861",
+        "description": "Deeply religious, John Wanamaker wants this clothing store to be moral and honest. To avoid haggling, he adopts a simpler system: price tags.",
+        "detail": "The fast food chain Wendy's said it would test \"<a href=\"https://www.nytimes.com/2024/02/27/business/wendys-prices-inflation.html\">dynamic pricing</a>\" for its fast food, adding later that is had no plans to raise prices during busy periods.",
+        "image": "nyt-2024-03-01-wannamaker-320.jpg",
+        "points": 4,
+        "status": "unanswered"
+    },
+    {
+        "id": 8,
+        "year": 1464,
+        "displayYear": "1464-5",
+        "description": "The printing press first arrives near Rome. Instead of heavy German lettering, Italians will develop more readable fonts, including roman and italic.",
+        "detail": "One Italian typeface, Bodoni, has become ubiquitous, and is <a href=\"https://www.nytimes.com/2024/02/29/books/bodoni-museum-typeface.html\">probably lurking in your bookshelf</a>.",
+        "image": "nyt-2024-03-01-printing-320.jpg",
+        "points": 4,
+        "status": "unanswered"
+    },
+    {
+        "id": 9,
+        "year": 1372,
+        "displayYear": "1372",
+        "description": "After 200 years of construction delays, a cathedral's bell tower - still leaning - is completed in Pisa",
+        "detail": "Egyptian plans to <a href=\"https://www.nytimes.com/2024/02/01/arts/design/resurfacing-pyramid-ignites-debate.html\">resurface an ancient pyramid</a> have drawn criticism, and were compared to straightening the Tower of Pisa.",
+        "image": "nyt-2024-03-01-pisa-320.jpg",
+        "points": 4,
+        "status": "unanswered"
+    }
+]

@@ -42,3 +42,10 @@ body {
   background: #e3e0d5;
   color: #333333;
 }
+
+hr {
+  background: #e2e0d6;
+  border: none;
+  height: 2px;
+  margin: 40px auto;
+}
