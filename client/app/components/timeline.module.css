@@ -10,6 +10,7 @@
   border-radius: 5px;
   padding: 15px 2px 11px 2px;
   margin: 20px auto;
+  user-select: none;
 }
 
 .box_event .description {

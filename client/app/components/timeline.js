@@ -36,14 +36,7 @@ export default function Timeline({index, events}) {
 
     // Push event.
     timeline.push(
-      <div
-        key={"event-" + i}
-        className={styles.box_event}
-        draggable="true"
-        onDragStart={(e) => {
-          e.dataTransfer.setData("text/plain", event.id);
-        }}
-      >
+      <div key={"event-" + i} className={styles.box_event} draggable="false">
         <div className={cx(yearClasses)}>{event.displayYear}</div>
         <div className={styles.event_data}>
           <img src={"images/" + event.image} alt="" />

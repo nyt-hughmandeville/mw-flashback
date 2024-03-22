@@ -1,3 +1,33 @@
 .guessing {
   margin: 0 auto;
 }
+
+.box_event {
+  width: 420px;
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 15px 2px 11px 2px;
+  margin: 20px auto;
+  box-shadow: 0 4px 5px 0 #b1aea5;
+  user-select: none;
+}
+
+.box_event .description {
+  display: inline-block;
+  vertical-align: top;
+  width: 270px;
+  text-align: left;
+  font-family: "nyt-imperial", georgia, "times new roman", times, serif;
+}
+
+.box_event img {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 10px;
+  width: 120px;
+}
+
+.event_data {
+  position: relative;
+  padding: 0;
+}
