@@ -3,27 +3,26 @@ import styles from "./progress-bar.module.css";
 
 // ProgressBar - Render quiz progress bar.
 export default function ProgressBar({index, events}) {
-  const markerIndex = index - 1;
-  const questionEvents = events.slice(1);
+  const markerIndex = index;
+  const questionEvents = events.slice(1, index);
 
   // Total the points for all correct answers.
   const points = questionEvents.reduce((total, event) => {
-    if (event.status === "correct")  {
-      return total + event.points;
-    }
-    return total;
+    return total + event.actualPoints;
   }, 0);
 
-  const markers = questionEvents.map((event, i) => {
+  const markers = events.map((event, i) => {
     let classes = [styles.marker];
     if (event.status === "correct") {
       classes.push(styles.correct);
     } else if (event.status === "incorrect") {
       classes.push(styles.incorrect);
+    } else if (event.status === "start") {
+      return null;
     } else {
       classes.push(styles.unanswered);
     }
-    if (i === markerIndex) {
+    if (i === markerIndex + 1) {
       classes.push(styles.active);
     }
 
@@ -37,7 +36,7 @@ export default function ProgressBar({index, events}) {
   return (
     <div className={styles.progress_bar}>
       <div className={styles.index}>
-        {markerIndex + 1} of {events.length - 1}
+        {markerIndex} of {events.length - 1}
       </div>
       {markers}
       <div className={styles.points}>{points} Points</div>
