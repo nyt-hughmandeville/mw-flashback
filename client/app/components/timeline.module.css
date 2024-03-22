@@ -47,7 +47,7 @@
   display: inline-block;
   vertical-align: top;
   margin-top: -28px;
-  background: #5cb887;
+  background: #b1aea5;
   text-align: center;
   color: white;
   padding: 4px 8px;
@@ -55,6 +55,13 @@
   font-weight: 700;
   font-size: 16px;
   z-index: 100;
+}
+
+.correct {
+  background: #74b68b;
+}
+.incorrect {
+  background: #c35b57;
 }
 
 .box_event img {

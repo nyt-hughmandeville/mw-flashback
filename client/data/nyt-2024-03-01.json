@@ -19,9 +19,9 @@
         "detail": "Chicago's ice rink in Millennium Park was not as sturdy, <a href=\"https://www.nytimes.com/2024/02/27/us/chicago-winter-warm-weather.html\">melting in February</a> because of the heat.",
         "image": "nyt-2024-03-01-ice-320.jpg",
         "possiblePoints": 3,
-        "actualPoints": 0,
+        "actualPoints": 3,
         "guess": "",
-        "status": "unanswered"
+        "status": "correct"
     },
     {
         "id": 3,
@@ -33,7 +33,7 @@
         "possiblePoints": 3,
         "actualPoints": 0,
         "guess": "",
-        "status": "unanswered"
+        "status": "incorrect"
     },
     {
         "id": 4,

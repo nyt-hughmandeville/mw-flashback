@@ -1,3 +1,4 @@
+import {cx} from "pretty-lights";
 import styles from "./timeline.module.css";
 
 // Timeline - Render timeline.
@@ -8,6 +9,7 @@ export default function Timeline({index, events}) {
   for (let i = 0; i < displayEvents.length; i++) {
     const event = displayEvents[i];
 
+    // Push before event drop zone.
     timeline.push(
       <div
         key={"drop-before-" + i}
@@ -24,6 +26,15 @@ export default function Timeline({index, events}) {
       </div>
     );
 
+    let yearClasses = [styles.year];
+    if (event.status === "correct") {
+      yearClasses.push(styles.correct);
+    }
+    if (event.status == "incorrect") {
+      yearClasses.push(styles.incorrect);
+    }
+
+    // Push event.
     timeline.push(
       <div
         key={"event-" + i}
@@ -33,7 +44,7 @@ export default function Timeline({index, events}) {
           e.dataTransfer.setData("text/plain", event.id);
         }}
       >
-        <div className={styles.year}>{event.displayYear}</div>
+        <div className={cx(yearClasses)}>{event.displayYear}</div>
         <div className={styles.event_data}>
           <img src={"images/" + event.image} alt="" />
           <div className={styles.description}>{event.description}</div>
@@ -42,6 +53,7 @@ export default function Timeline({index, events}) {
     );
   }
 
+  // Push last drop zone.
   timeline.push(
     <div
       key={"drop-last"}
@@ -57,45 +69,6 @@ export default function Timeline({index, events}) {
       Tap to place here
     </div>
   );
-
-  /*
-  let timeline = events
-    .slice(0, index)
-    .sort(compareYear).
-    .map((event) => {
-      return (
-        <>
-          <div
-            key={"dro-before-" + event.id}
-            onDrop={(e) => {
-              e.preventDefault();
-              console.log("Dropped: ", e.dataTransfer.getData("text/plain"));
-            }}
-            onDragOver={(e) => {
-              e.preventDefault();
-            }}
-            className={styles.box_drop}
-          >
-            Tap to place here
-          </div>
-          <div
-            key={"event-" + event.id}
-            className={styles.box_event}
-            draggable="true"
-            onDragStart={(e) => {
-              e.dataTransfer.setData("text/plain", event.id);
-            }}
-          >
-            <div className={styles.year}>{event.displayYear}</div>
-            <div className={styles.event_data}>
-              <img src={"images/" + event.image} alt="" />
-              <div className={styles.description}>{event.description}</div>
-            </div>
-          </div>
-        </>
-      );
-    });
-    */
 
   return (
     <div className={styles.box_events}>
