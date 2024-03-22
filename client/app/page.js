@@ -8,7 +8,7 @@ import styles from "./page.module.css";
 import {useState} from "react";
 
 export default function Home() {
-  const [index, setIndex] = useState(0);
+  const [index, setIndex] = useState(2);
   const [events, setEvents] = useState(data);
 
   return (

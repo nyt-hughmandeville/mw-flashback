@@ -4,7 +4,7 @@ import styles from "./timeline.module.css";
 export default function Timeline({index, events}) {
   let timeline = [];
 
-  const displayEvents = events.slice(0, index).sort(compareYear);
+  const displayEvents = events.slice(0, index + 1).sort(compareYear);
   for (let i = 0; i < displayEvents.length; i++) {
     const event = displayEvents[i];
 
