@@ -17,6 +17,7 @@ export default function Guessing({index, events}) {
         <div className={styles.event_data}>
           <img src={"images/" + event.image} alt="" />
           <div className={styles.description}>{event.description}</div>
+          <div className={styles.points}>{event.possiblePoints} points</div>
         </div>
       </div>
       <hr />
