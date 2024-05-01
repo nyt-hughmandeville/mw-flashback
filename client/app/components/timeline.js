@@ -13,9 +13,10 @@ export default function Timeline({index, events}) {
     timeline.push(
       <div
         key={"drop-before-" + i}
+        data-i={i}
         onDrop={(e) => {
           e.preventDefault();
-          console.log("Dropped: ", e.dataTransfer.getData("text/plain"));
+          console.log("Dropped: ", e.currentTarget.dataset.i);
         }}
         onDragOver={(e) => {
           e.preventDefault();
@@ -50,9 +51,10 @@ export default function Timeline({index, events}) {
   timeline.push(
     <div
       key={"drop-last"}
+      data-i={displayEvents.length}
       onDrop={(e) => {
         e.preventDefault();
-        console.log("Dropped: ", e.dataTransfer.getData("text/plain"));
+        console.log("Dropped: ", e.currentTarget.dataset.i);
       }}
       onDragOver={(e) => {
         e.preventDefault();
