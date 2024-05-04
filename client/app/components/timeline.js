@@ -6,7 +6,7 @@ export default function Timeline({index, events, madeGuess}) {
   let timeline = [];
   const displayEvents = events.slice(0, index + 1).sort(compareYear);
 
-  console.log("display timeline: ", index);
+  console.log("timeline: ", events);
 
   for (let i = 0; i < displayEvents.length; i++) {
     const event = displayEvents[i];
@@ -19,7 +19,6 @@ export default function Timeline({index, events, madeGuess}) {
           data-i={i}
           onDrop={(e) => {
             e.preventDefault();
-            console.log("Dropped: ", e.currentTarget.dataset.i);
             madeGuess(parseInt(e.currentTarget.dataset.i));
           }}
           onDragOver={(e) => {
@@ -60,7 +59,6 @@ export default function Timeline({index, events, madeGuess}) {
         data-i={displayEvents.length}
         onDrop={(e) => {
           e.preventDefault();
-          console.log("Dropped: ", e.currentTarget.dataset.i);
           madeGuess(parseInt(e.currentTarget.dataset.i));
         }}
         onDragOver={(e) => {

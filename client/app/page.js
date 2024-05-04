@@ -17,22 +17,28 @@ export default function Home() {
     const droppedEvent = displayEvents[index];
 
     let correct = true;
-    if (dropIndex <= displayEvents.length) {
-      // Check if before the event that is after
-      const afterEvent = displayEvents[dropIndex];
-      if (droppedEvent.year > afterEvent.year) {
-        correct = false;
-      }
-    }
+    let guess = "";
+
     if (dropIndex > 0) {
       // Check if after the event that is before
       const beforeEvent = displayEvents[dropIndex - 1];
       if (droppedEvent.year < beforeEvent.year) {
         correct = false;
       }
+      guess += beforeEvent.year;
+    }
+    guess += "-";
+    if (dropIndex <= displayEvents.length) {
+      // Check if before the event that is after
+      const afterEvent = displayEvents[dropIndex];
+      if (droppedEvent.year > afterEvent.year) {
+        correct = false;
+      }
+      guess += afterEvent.year;
     }
 
     events[index + 1].status = correct ? "correct" : "incorrect";
+    events[index + 1].guess = guess;
     setEvents(events);
 
     setIndex(index + 1);
