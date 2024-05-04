@@ -1,11 +1,11 @@
 import {cx} from "pretty-lights";
 import styles from "./timeline.module.css";
-
+import {compareYear} from "../utils/utils";
 // Timeline - Render timeline.
-export default function Timeline({index, events}) {
+export default function Timeline({index, events, madeGuess}) {
   let timeline = [];
-
   const displayEvents = events.slice(0, index + 1).sort(compareYear);
+
   for (let i = 0; i < displayEvents.length; i++) {
     const event = displayEvents[i];
 
@@ -17,6 +17,7 @@ export default function Timeline({index, events}) {
         onDrop={(e) => {
           e.preventDefault();
           console.log("Dropped: ", e.currentTarget.dataset.i);
+          madeGuess(parseInt(e.currentTarget.dataset.i));
         }}
         onDragOver={(e) => {
           e.preventDefault();
@@ -55,6 +56,7 @@ export default function Timeline({index, events}) {
       onDrop={(e) => {
         e.preventDefault();
         console.log("Dropped: ", e.currentTarget.dataset.i);
+        madeGuess(parseInt(e.currentTarget.dataset.i));
       }}
       onDragOver={(e) => {
         e.preventDefault();
@@ -72,8 +74,4 @@ export default function Timeline({index, events}) {
       <div className={styles.label}>AFTER</div>
     </div>
   );
-}
-
-function compareYear(e1, e2) {
-  return e1.year - e2.year;
 }

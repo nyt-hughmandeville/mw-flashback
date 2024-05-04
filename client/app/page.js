@@ -6,16 +6,50 @@ import ProgressBar from "./components/progress-bar";
 import Timeline from "./components/timeline";
 import styles from "./page.module.css";
 import {useState} from "react";
+import {compareYear} from "./utils/utils";
 
 export default function Home() {
   const [index, setIndex] = useState(2);
   const [events, setEvents] = useState(data);
 
+  const madeGuess = (dropIndex) => {
+    console.log("In madeGuess: ", dropIndex);
+
+    const displayEvents = events.slice(0, index + 1).sort(compareYear);
+    const droppedEvent = displayEvents[index];
+
+    let correct = true;
+    if (dropIndex <= displayEvents.length) {
+      // Check if before the event that is after
+      const afterEvent = displayEvents[dropIndex];
+      if (droppedEvent.year > afterEvent.year) {
+        correct = false;
+      }
+    }
+    if (dropIndex > 0) {
+      // Check if after the event that is before
+      const beforeEvent = displayEvents[dropIndex - 1];
+      if (droppedEvent.year < beforeEvent.year) {
+        correct = false;
+      }
+    }
+
+    events[index + 1].status = correct ? "correct" : "incorrect";
+    setEvents(events);
+
+    if (index < events.length - 1) {
+      setIndex(index + 1);
+    } else {
+      console.log("Game over");
+    }
+  };
+
   return (
     <main className={styles.main}>
       <ProgressBar events={events} index={index} />
       <Guessing events={events} index={index} />
-      <Timeline events={events} index={index} />
+      <Timeline events={events} index={index} madeGuess={madeGuess} />
+      <div className={styles.index}>{index}</div>
     </main>
   );
 }

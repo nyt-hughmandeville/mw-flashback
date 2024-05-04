@@ -2,7 +2,10 @@ import styles from "./guessing.module.css";
 
 // Guessing - Render current event to guess.
 export default function Guessing({index, events}) {
-  const event = events[index];
+  if (index > events.length - 2) {
+    return null;
+  }
+  const event = events[index + 1];
 
   return (
     <div className={styles.guessing}>
@@ -15,9 +18,9 @@ export default function Guessing({index, events}) {
         }}
       >
         <div className={styles.event_data}>
-          <img src={"images/" + event.image} alt="" />
-          <div className={styles.description}>{event.description}</div>
-          <div className={styles.points}>{event.possiblePoints} points</div>
+          <img src={"images/" + event?.image} alt="" />
+          <div className={styles.description}>{event?.description}</div>
+          <div className={styles.points}>{event?.possiblePoints} points</div>
         </div>
       </div>
       <hr />
