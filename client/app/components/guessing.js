@@ -14,7 +14,7 @@ export default function Guessing({index, events}) {
         className={styles.box_event}
         draggable="true"
         onDragStart={(e) => {
-          e.dataTransfer.setData("text/plain", "TBD");
+          // e.dataTransfer.setData("text/plain", "TBD");
         }}
       >
         <div className={styles.event_data}>

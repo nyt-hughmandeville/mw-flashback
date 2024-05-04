@@ -1,8 +1,9 @@
 import {cx} from "pretty-lights";
 import styles from "./timeline.module.css";
 import {compareYear} from "../utils/utils";
+
 // Timeline - Render timeline.
-export default function Timeline({index, events, madeGuess}) {
+export default function Timeline({dragOverZone, events, index, madeGuess, setDragOverZone}) {
   let timeline = [];
   const displayEvents = events.slice(0, index + 1).sort(compareYear);
 
@@ -17,12 +18,18 @@ export default function Timeline({index, events, madeGuess}) {
           data-i={i}
           onDrop={(e) => {
             e.preventDefault();
+            setDragOverZone(-1);
             madeGuess(parseInt(e.currentTarget.dataset.i));
           }}
           onDragOver={(e) => {
             e.preventDefault();
+            setDragOverZone(parseInt(e.currentTarget.dataset.i));
           }}
-          className={styles.box_drop}
+          onDragLeave={(e) => {
+            e.preventDefault();
+            setDragOverZone(-1);
+          }}
+          className={dragOverZone === i ? styles.box_drop_active : styles.box_drop}
         >
           Tap to place here
         </div>
@@ -57,12 +64,18 @@ export default function Timeline({index, events, madeGuess}) {
         data-i={displayEvents.length}
         onDrop={(e) => {
           e.preventDefault();
+          setDragOverZone(-1);
           madeGuess(parseInt(e.currentTarget.dataset.i));
         }}
         onDragOver={(e) => {
           e.preventDefault();
+          setDragOverZone(parseInt(e.currentTarget.dataset.i));
         }}
-        className={styles.box_drop}
+        onDragLeave={(e) => {
+          e.preventDefault();
+          setDragOverZone(-1);
+        }}
+        className={dragOverZone === displayEvents.length ? styles.box_drop_active : styles.box_drop}
       >
         Tap to place here
       </div>

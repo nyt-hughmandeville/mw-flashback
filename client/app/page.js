@@ -11,6 +11,7 @@ import {compareYear} from "./utils/utils";
 export default function Home() {
   const [index, setIndex] = useState(0);
   const [events, setEvents] = useState(data);
+  const [dragOverZone, setDragOverZone] = useState(-1); // -1 is no zone
 
   const madeGuess = (dropIndex) => {
     const displayEvents = events.slice(0, index + 1).sort(compareYear);
@@ -54,7 +55,13 @@ export default function Home() {
     <main className={styles.main}>
       <ProgressBar events={events} index={index} />
       <Guessing events={events} index={index} />
-      <Timeline events={events} index={index} madeGuess={madeGuess} />
+      <Timeline
+        dragOverZone={dragOverZone}
+        events={events}
+        index={index}
+        madeGuess={madeGuess}
+        setDragOverZone={setDragOverZone}
+      />
       <div className={styles.index}>{index}</div>
     </main>
   );
