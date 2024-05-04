@@ -14,7 +14,7 @@ export default function Home() {
 
   const madeGuess = (dropIndex) => {
     const displayEvents = events.slice(0, index + 1).sort(compareYear);
-    const droppedEvent = displayEvents[index];
+    const droppedEvent = events[index + 1];
 
     let correct = true;
     let guess = "";
@@ -37,7 +37,13 @@ export default function Home() {
       guess += afterEvent.year;
     }
 
-    events[index + 1].status = correct ? "correct" : "incorrect";
+    if (correct) {
+      events[index + 1].status = "correct";
+      events[index + 1].actualPoints = events[index + 1].possiblePoints;
+    } else {
+      events[index + 1].status = "incorrect";
+      // TBD: could add partial points
+    }
     events[index + 1].guess = guess;
     setEvents(events);
 

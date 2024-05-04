@@ -6,8 +6,6 @@ export default function Timeline({index, events, madeGuess}) {
   let timeline = [];
   const displayEvents = events.slice(0, index + 1).sort(compareYear);
 
-  console.log("timeline: ", events);
-
   for (let i = 0; i < displayEvents.length; i++) {
     const event = displayEvents[i];
 

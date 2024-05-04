@@ -7,7 +7,7 @@ export default function ProgressBar({index, events}) {
   const questionEvents = events.slice(1, index);
 
   // Total the points for all correct answers.
-  const points = questionEvents.reduce((total, event) => {
+  const points = events.reduce((total, event) => {
     return total + event.actualPoints;
   }, 0);
 
