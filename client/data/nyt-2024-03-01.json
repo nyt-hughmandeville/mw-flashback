@@ -21,7 +21,7 @@
         "possiblePoints": 3,
         "actualPoints": 3,
         "guess": "",
-        "status": "correct"
+        "status": "unanswered"
     },
     {
         "id": 3,
@@ -33,7 +33,7 @@
         "possiblePoints": 3,
         "actualPoints": 0,
         "guess": "",
-        "status": "incorrect"
+        "status": "unanswered"
     },
     {
         "id": 4,

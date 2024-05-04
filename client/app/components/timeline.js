@@ -6,27 +6,31 @@ export default function Timeline({index, events, madeGuess}) {
   let timeline = [];
   const displayEvents = events.slice(0, index + 1).sort(compareYear);
 
+  console.log("display timeline: ", index);
+
   for (let i = 0; i < displayEvents.length; i++) {
     const event = displayEvents[i];
 
-    // Push before event drop zone.
-    timeline.push(
-      <div
-        key={"drop-before-" + i}
-        data-i={i}
-        onDrop={(e) => {
-          e.preventDefault();
-          console.log("Dropped: ", e.currentTarget.dataset.i);
-          madeGuess(parseInt(e.currentTarget.dataset.i));
-        }}
-        onDragOver={(e) => {
-          e.preventDefault();
-        }}
-        className={styles.box_drop}
-      >
-        Tap to place here
-      </div>
-    );
+    // Push before event drop zone if game isn't over
+    if (index < events.length - 1) {
+      timeline.push(
+        <div
+          key={"drop-before-" + i}
+          data-i={i}
+          onDrop={(e) => {
+            e.preventDefault();
+            console.log("Dropped: ", e.currentTarget.dataset.i);
+            madeGuess(parseInt(e.currentTarget.dataset.i));
+          }}
+          onDragOver={(e) => {
+            e.preventDefault();
+          }}
+          className={styles.box_drop}
+        >
+          Tap to place here
+        </div>
+      );
+    }
 
     let yearClasses = [styles.year];
     if (event.status === "correct") {
@@ -48,24 +52,26 @@ export default function Timeline({index, events, madeGuess}) {
     );
   }
 
-  // Push last drop zone.
-  timeline.push(
-    <div
-      key={"drop-last"}
-      data-i={displayEvents.length}
-      onDrop={(e) => {
-        e.preventDefault();
-        console.log("Dropped: ", e.currentTarget.dataset.i);
-        madeGuess(parseInt(e.currentTarget.dataset.i));
-      }}
-      onDragOver={(e) => {
-        e.preventDefault();
-      }}
-      className={styles.box_drop}
-    >
-      Tap to place here
-    </div>
-  );
+  // Push last drop zone if game isn't over
+  if (index < events.length - 1) {
+    timeline.push(
+      <div
+        key={"drop-last"}
+        data-i={displayEvents.length}
+        onDrop={(e) => {
+          e.preventDefault();
+          console.log("Dropped: ", e.currentTarget.dataset.i);
+          madeGuess(parseInt(e.currentTarget.dataset.i));
+        }}
+        onDragOver={(e) => {
+          e.preventDefault();
+        }}
+        className={styles.box_drop}
+      >
+        Tap to place here
+      </div>
+    );
+  }
 
   return (
     <div className={styles.box_events}>

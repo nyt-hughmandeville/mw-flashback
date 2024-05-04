@@ -9,12 +9,10 @@ import {useState} from "react";
 import {compareYear} from "./utils/utils";
 
 export default function Home() {
-  const [index, setIndex] = useState(2);
+  const [index, setIndex] = useState(0);
   const [events, setEvents] = useState(data);
 
   const madeGuess = (dropIndex) => {
-    console.log("In madeGuess: ", dropIndex);
-
     const displayEvents = events.slice(0, index + 1).sort(compareYear);
     const droppedEvent = displayEvents[index];
 
@@ -37,11 +35,7 @@ export default function Home() {
     events[index + 1].status = correct ? "correct" : "incorrect";
     setEvents(events);
 
-    if (index < events.length - 1) {
-      setIndex(index + 1);
-    } else {
-      console.log("Game over");
-    }
+    setIndex(index + 1);
   };
 
   return (
