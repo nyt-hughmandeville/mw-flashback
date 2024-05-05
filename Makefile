@@ -15,6 +15,11 @@ help:
 build:
 	cd client; pnpm build
 
+.PHONY: deploy
+## deploy: Deploy Next.js code.
+deploy:
+	cd client; pnpm deploy
+
 ## :
 ## DEPENDENCIES:
 
