@@ -16,7 +16,7 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.4.0
         with:
-          node-version: 16.x
+          node-version: 21.x
       - name: Enable pnpm
         run: curl -L https://unpkg.com/@pnpm/self-installer | node
       - name: Cache .pnpm-store
