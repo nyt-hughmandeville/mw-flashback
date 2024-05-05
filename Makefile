@@ -13,7 +13,7 @@ help:
 .PHONY: build
 ## build: Build React client code.
 build:
-	cd client; npm build
+	cd client; npm run build
 
 .PHONY: deploy
 ## deploy: Deploy Next.js code.
