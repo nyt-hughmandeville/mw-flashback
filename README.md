@@ -4,6 +4,11 @@ This project contains some flashback quiz ideas.
 
 - <https://nyt-hughmandeville.github.io/mw-flashback/>
 
+## Links
+
+- [GitHub Action](https://github.com/nyt-hughmandeville/mw-flashback/actions)
+- [GitHub Pages](https://nyt-hughmandeville.github.io/mw-flashback/)
+
 ## Files & Directories
 
 ```text
