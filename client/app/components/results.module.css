@@ -1,0 +1,27 @@
+.results {
+  margin: 20px auto;
+  border: 2px solid #e2e0d6;
+  border-radius: 10px;
+  width: 320px;
+  padding: 30px;
+  background: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "nyt-cheltenham", georgia, "times new roman", times, serif;
+  text-align: center;
+  line-height: 1.2em;
+}
+
+.button {
+  background: #5d72c9;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 20px auto 0 auto;
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+  width: 100px;
+  font-family: "nyt-franklin", arial, helvetica, sans-serif;
+  cursor: pointer;
+}
