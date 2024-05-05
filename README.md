@@ -49,8 +49,9 @@ make dep-update
 Depends on [react-select](https://www.npmjs.com/package/react-select).
 
 ```sh
-pnpm add pretty-lights
-pnpm add react-select
+npm add gh-pages
+npm add pretty-lights
+npm add react-select
 ```
 
 ## Project Setup
@@ -58,7 +59,7 @@ pnpm add react-select
 See the [Next.js setup doc](https://nextjs.org/learn/basics/deploying-nextjs-app/setup).
 
 ```sh
-npx create-next-app@latest client --use-pnpm --js --app
+npx create-next-app@latest client --use-npm --js --app
 ```
 
 ## Quizzes
