@@ -2,9 +2,8 @@ import {cx} from "pretty-lights";
 import styles from "./progress-bar.module.css";
 
 // ProgressBar - Render quiz progress bar.
-export default function ProgressBar({index, events}) {
+export default function ProgressBar({events, index}) {
   const markerIndex = index;
-  const questionEvents = events.slice(1, index);
 
   // Total the points for all correct answers.
   const points = events.reduce((total, event) => {
@@ -27,7 +26,7 @@ export default function ProgressBar({index, events}) {
     }
 
     return (
-      <div key={i} className={cx(classes)}>
+      <div key={"marker-" + i} className={cx(classes)}>
         &nbsp;
       </div>
     );

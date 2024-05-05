@@ -7,6 +7,7 @@ import Timeline from "./components/timeline";
 import styles from "./page.module.css";
 import {useState} from "react";
 import {compareYear} from "./utils/utils";
+import Results from "./components/results";
 
 export default function Home() {
   const [index, setIndex] = useState(0);
@@ -56,6 +57,7 @@ export default function Home() {
       <div className={styles.top_bar}>
         <ProgressBar events={events} index={index} />
         <Guessing events={events} index={index} />
+        <Results events={events} index={index} setEvents={setEvents} setIndex={setIndex} />
       </div>
       <div className={styles.bottom}>
         <Timeline
