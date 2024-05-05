@@ -53,16 +53,19 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
-      <ProgressBar events={events} index={index} />
-      <Guessing events={events} index={index} />
-      <Timeline
-        dragOverZone={dragOverZone}
-        events={events}
-        index={index}
-        madeGuess={madeGuess}
-        setDragOverZone={setDragOverZone}
-      />
-      <div className={styles.index}>{index}</div>
+      <div className={styles.top_bar}>
+        <ProgressBar events={events} index={index} />
+        <Guessing events={events} index={index} />
+      </div>
+      <div className={styles.bottom}>
+        <Timeline
+          dragOverZone={dragOverZone}
+          events={events}
+          index={index}
+          madeGuess={madeGuess}
+          setDragOverZone={setDragOverZone}
+        />
+      </div>
     </main>
   );
 }

@@ -21,14 +21,14 @@
   font-family: "nyt-imperial", georgia, "times new roman", times, serif;
 }
 
-.box_drop {
+.box_drop,
+.box_drop_active {
   position: relative;
-  width: 380px;
-  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='8' ry='8' stroke='%23B1AEA4FF' stroke-width='4' stroke-dasharray='6%2c 10' stroke-dashoffset='5' stroke-linecap='square'/%3e%3c/svg%3e");
+  width: 420px;
   padding: 10px;
   margin: 10px auto;
   border-radius: 8px;
-  height: 65px;
+  height: 10px;
   color: #6171c3;
   font-weight: 700;
   font-size: 16px;
@@ -36,7 +36,7 @@
 }
 .box_drop_active {
   background: #f4da93;
-  height: 100px;
+  height: 160px;
 }
 
 .label {

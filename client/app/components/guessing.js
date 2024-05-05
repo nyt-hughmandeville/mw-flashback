@@ -23,7 +23,6 @@ export default function Guessing({index, events}) {
           <div className={styles.points}>{event?.possiblePoints} points</div>
         </div>
       </div>
-      <hr />
     </div>
   );
 }

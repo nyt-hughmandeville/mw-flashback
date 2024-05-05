@@ -3,3 +3,16 @@
   bottom: 20px;
   left: 20px;
 }
+
+.top_bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 200;
+  background: #f2f1e8;
+}
+
+.bottom {
+  padding-top: 240px;
+}

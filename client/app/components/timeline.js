@@ -30,9 +30,7 @@ export default function Timeline({dragOverZone, events, index, madeGuess, setDra
             setDragOverZone(-1);
           }}
           className={dragOverZone === i ? styles.box_drop_active : styles.box_drop}
-        >
-          Tap to place here
-        </div>
+        ></div>
       );
     }
 
@@ -76,9 +74,7 @@ export default function Timeline({dragOverZone, events, index, madeGuess, setDra
           setDragOverZone(-1);
         }}
         className={dragOverZone === displayEvents.length ? styles.box_drop_active : styles.box_drop}
-      >
-        Tap to place here
-      </div>
+      ></div>
     );
   }
 
