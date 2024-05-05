@@ -43,9 +43,14 @@ dep-update:
 ## RUN:
 
 .PHONY: run
-## run: Run Next.js client/server locally (on port 3000).
+## run: Run Next.js locally (on port 3000).
 run:
 	@echo "http://localhost:3000/"
 	cd client && npm run dev
+
+.PHONY: run-static
+## run-static: Run static site in out dir locally (on port 3000).
+run-static:
+	cd client && serve -s out
 
 ## :

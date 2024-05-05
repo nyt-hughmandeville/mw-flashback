@@ -24,18 +24,32 @@ This project contains some flashback quiz ideas.
 
 TBD
 
-## Building
-
-```sh
-make build
-```
-
 ## Running Locally
 
 Use `make` to start the web server.
 
 ```sh
 make run
+```
+
+## Running Static Site
+
+First build the static site.
+
+```sh
+make build
+```
+
+The `serve` command needs to have been installed.
+
+```sh
+sudo npm install -g serve
+```
+
+Then start the static site.
+
+```sh
+make run-static
 ```
 
 ## Updating Dependencies
