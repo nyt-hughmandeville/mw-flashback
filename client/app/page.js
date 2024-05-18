@@ -12,7 +12,7 @@ import Results from "./components/results";
 export default function Home() {
   const games = [
     {label: "Flashback: March 2, 2024", value: "nyt-2024-03-02.json"},
-    {label: "Quiz 2", value: "quiz-02.json"},
+    {label: "Flashback: March 9, 2024", value: "nyt-2024-03-09.json"},
   ];
 
   const [dragOverZone, setDragOverZone] = useState(-1); // -1 is no zone
