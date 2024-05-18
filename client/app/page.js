@@ -1,18 +1,46 @@
 "use client";
 
-import data from "../data/nyt-2024-03-01.json";
+import GameSelect from "./components/game-select";
 import Guessing from "./components/guessing";
 import ProgressBar from "./components/progress-bar";
 import Timeline from "./components/timeline";
 import styles from "./page.module.css";
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import {compareYear} from "./utils/utils";
 import Results from "./components/results";
 
 export default function Home() {
-  const [index, setIndex] = useState(0);
-  const [events, setEvents] = useState(data);
+  const games = [
+    {label: "Flashback: March 2, 2024", value: "nyt-2024-03-02.json"},
+    {label: "Flashback: March 9, 2024", value: "nyt-2024-03-09.json"},
+    {label: "Flashback: March 16, 2024", value: "nyt-2024-03-16.json"},
+  ];
+
   const [dragOverZone, setDragOverZone] = useState(-1); // -1 is no zone
+  const [events, setEvents] = useState([]);
+  const [game, setGame] = useState(games[0]);
+  const [index, setIndex] = useState(0);
+  const [message, setMessage] = useState("TBD: Load game");
+
+  useEffect(() => {
+    console.log("Loading game...");
+    const path = "/games/" + game.value;
+    setMessage("Loading game (" + path + ")...");
+    fetch(path, {
+      cache: "no-cache",
+      method: "GET",
+      mode: "cors",
+    }).then((response) => {
+      if (!response.ok) {
+        setMessage("Problem loading game (" + response.status + "): " + response.statusText);
+        return;
+      }
+      response.json().then((data) => {
+        setMessage("Loaded");
+        setEvents(data);
+      });
+    });
+  }, [game]);
 
   const madeGuess = (dropIndex) => {
     const displayEvents = events.slice(0, index + 1).sort(compareYear);
@@ -54,6 +82,7 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
+      <GameSelect game={game} games={games} setGame={setGame} />
       <div className={styles.top_bar}>
         <ProgressBar events={events} index={index} />
         <Guessing events={events} index={index} />
