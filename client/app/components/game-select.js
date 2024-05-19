@@ -1,5 +1,3 @@
-"use client";
-
 import styles from "./game-select.module.css";
 import Select from "react-select";
 

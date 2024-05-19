@@ -2,6 +2,9 @@ import styles from "./results.module.css";
 
 // Guessing - Render current event to guess.
 export default function Results({events, index, setEvents, setIndex}) {
+  if (events.length < 2) {
+    return null;
+  }
   if (index < events.length - 1) {
     return null;
   }

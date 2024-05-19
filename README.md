@@ -78,8 +78,9 @@ npx create-next-app@latest client --use-npm --js --app
 
 ## Quizzes
 
-- Music Quiz
 - Art Quiz
+- Books Quiz
+- Music Quiz
 - Hard Fork Quiz
 - Car Quiz
 - Movie Quiz

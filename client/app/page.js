@@ -11,8 +11,8 @@ import Results from "./components/results";
 
 export default function Home() {
   const games = [
+    {label: "Art", value: "art-01.json"},
     {label: "Flashback: March 2, 2024", value: "nyt-2024-03-02.json"},
-    {label: "Flashback: March 9, 2024", value: "nyt-2024-03-09a.json"},
   ];
 
   const [dragOverZone, setDragOverZone] = useState(-1); // -1 is no zone
@@ -64,10 +64,10 @@ export default function Home() {
     if (dropIndex <= displayEvents.length) {
       // Check if before the event that is after
       const afterEvent = displayEvents[dropIndex];
-      if (droppedEvent.year > afterEvent.year) {
+      if (droppedEvent?.year > afterEvent?.year) {
         correct = false;
       }
-      guess += afterEvent.year;
+      guess += afterEvent?.year;
     }
 
     if (correct) {

@@ -1,10 +1,12 @@
-"use client";
-
 import {cx} from "pretty-lights";
 import styles from "./progress-bar.module.css";
 
 // ProgressBar - Render quiz progress bar.
 export default function ProgressBar({events, index}) {
+  if (events.length < 2) {
+    return null;
+  }
+
   const markerIndex = index;
 
   // Total the points for all correct answers.
