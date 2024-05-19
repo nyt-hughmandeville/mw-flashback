@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "year": 1963,
+        "displayYear": "1963",
+        "description": "Whaam! 1963 is a large, two-canvas painting by the American pop artist Roy Lichtenstein that takes its composition from a comic book strip.",
+        "detail": "<a href=\"https://www.nytimes.com/1997/09/30/arts/roy-lichtenstein-pop-master-dies-at-73.html\">Roy Lichtenstein's obituary in The New York Times</a> described him as &quot;a saboteur, offering 1990's irony in the 1960's.&quot;</a>",
+        "image": "art-01-lichtenstein-320.png",
+        "possiblePoints": 0,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "start"
+    },
+    {
+        "id": 2,
+        "year": 1962,
+        "displayYear": "1962",
+        "description": "Marilyn Diptych is a silkscreen painting by the American pop artist Andy Warhol. The piece is one of the artist's most noted works.",
+        "detail": "<a href=\"https://www.nytimes.com/2018/11/12/style/andy-warhol-factory-history.html\">Tales From the Warhol Factory</a>",
+        "image": "art-01-warhol-320.png",
+        "possiblePoints": 3,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 3,
+        "year": 1982,
+        "displayYear": "1982",
+        "description": "Skull painting by American artist Jean-Michel Basquiat.",
+        "detail": "<a href=\"https://www.nytimes.com/2021/06/24/arts/design/basquiat-street-artists-hip-hop.html\">How Basquiat and Street Artists Left Their Mark on Hip-Hop Culture</a>",
+        "image": "art-01-basquiat-320.png",
+        "possiblePoints": 3,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 4,
+        "year": 1928,
+        "displayYear": "1928",
+        "description": "Oriental Poppies, also called Red Poppies, is an oil-on-canvas painting by Georgia O'Keeffe. It is a close-up of two Papaver orientale flowers that fill the entire canvas.",
+        "detail": "<a href=\"https://www.nytimes.com/2023/04/27/arts/design/georgia-okeeffe-moma-review.html\">Georgia O’Keeffe, ‘Modernized’ by MoMA</a>.",
+        "image": "art-01-okeeffe-320.png",
+        "possiblePoints": 3,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 5,
+        "year": 1951,
+        "displayYear": "1951",
+        "description": "No. 6 (Violet, Green and Red) is a painting by the Latvian-American expressionist artist Mark Rothko.",
+        "detail": "<a href=\"https://www.nytimes.com/2023/10/25/arts/design/mark-rothko-review-paris.html\">Mark Rothko at Full Scale, and in Half Light</a>",
+        "image": "art-01-rothko-320.png",
+        "possiblePoints": 3,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 6,
+        "year": 1908,
+        "displayYear": "1907–8",
+        "description": "Hope II is an oil-on-canvas painting with added gold and platinum by the Austrian symbolist artist Gustav Klimt, depicting a pregnant woman with closed eyes.",
+        "detail": "<a href=\"https://www.nytimes.com/2024/04/24/arts/design/gustav-klimt-painting-auction.html\">Long-Lost Klimt Painting Sells for $37 Million at Auction</a>",
+        "image": "art-01-klimt-320.png",
+        "possiblePoints": 4,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 7,
+        "year": 1955,
+        "displayYear": "1955",
+        "description": "Flag is an encaustic painting by the American artist Jasper Johns.",
+        "detail": "<a href=\"https://www.nytimes.com/2019/02/18/t-magazine/jasper-johns.html\">Jasper Johns, American Legend</a>",
+        "image": "art-01-johns-320.png",
+        "possiblePoints": 4,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 8,
+        "year": 2005,
+        "displayYear": "2005",
+        "description": "Hot Bottoms by Ken Price watercolor on paper",
+        "detail": "<a href=\"https://www.nytimes.com/2012/02/25/arts/design/ken-price-sculptor-who-helped-elevate-ceramics-dies-at-77.html\">Ken Price, Sculptor Whose Artworks Helped Elevate Ceramics, Dies at 77</a>.",
+        "image": "art-01-price-320.png",
+        "possiblePoints": 4,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 9,
+        "year": 1987,
+        "displayYear": "1987",
+        "description": "Untitled (Dance) by Keith Haring",
+        "detail": "<a href=\"https://www.nytimes.com/2024/04/17/arts/design/keith-haring-brad-gooch.html\">Keith Haring’s Legacy Is Not Found at the Museum</a>",
+        "image": "art-01-haring-320.jpg",
+        "possiblePoints": 4,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    }
+]
