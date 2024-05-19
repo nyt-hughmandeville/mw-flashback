@@ -48,7 +48,10 @@ export default function Timeline({dragOverZone, events, index, madeGuess, setDra
         <div className={cx(yearClasses)}>{event.displayYear}</div>
         <div className={styles.event_data}>
           <img src={"images/" + event.image} alt="" />
-          <div className={styles.description}>{event.description}</div>
+          <div
+            className={styles.description}
+            dangerouslySetInnerHTML={{__html: event?.description}}
+          />
         </div>
       </div>
     );
