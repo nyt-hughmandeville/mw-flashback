@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "year": 1913,
+        "displayYear": "1913",
+        "description": "The <b>Woolworth Building</b> is a 792-foot-tall residential building and early skyscraper at 233 Broadway in the Tribeca neighborhood of Lower Manhattan in New York City.",
+        "detail": "<a href=\"https://www.nytimes.com/2015/01/01/nyregion/off-limits-for-over-a-decade-lobby-of-woolworth-building-is-open-for-tours.html\">Woolworth Building’s Grand Arcade Is Once Again a Sight All Can See</a>",
+        "image": "arch-01-woolworth-320.png",
+        "possiblePoints": 0,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "start"
+    },
+    {
+        "id": 2,
+        "year": 1902,
+        "displayYear": "1902",
+        "description": "The <b>Flatiron Building</b>, originally the Fuller Building, is a 22-story, 285-foot-tall steel-framed triangular building at 175 Fifth Avenue in the Flatiron District neighborhood.",
+        "detail": "<a href=\"https://www.nytimes.com/2019/06/28/nyregion/flatiron-building-nyc.html\">End of an Era for the Flatiron Building</a>",
+        "image": "arch-01-flatiron-320.png",
+        "possiblePoints": 3,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 3,
+        "year": 1930,
+        "displayYear": "1930",
+        "description": "The <b>Empire State Building</b> is a 102-story Art Deco skyscraper in the Midtown South",
+        "detail": "<a href=\"https://www.nytimes.com/interactive/2021/09/15/nyregion/empire-state-building-reopening-new-york.html\">Why the Empire State Building, and New York, May Never Be the Same</a>",
+        "image": "arch-01-empirestate-320.png",
+        "possiblePoints": 3,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 4,
+        "year": 1928,
+        "displayYear": "1928",
+        "description": "Oriental Poppies, also called Red Poppies, is an oil-on-canvas painting by Georgia O'Keeffe. It is a close-up of two Papaver orientale flowers that fill the entire canvas.",
+        "detail": "<a href=\"https://www.nytimes.com/2023/04/27/arts/design/georgia-okeeffe-moma-review.html\">Georgia O’Keeffe, ‘Modernized’ by MoMA</a>.",
+        "image": "art-01-okeeffe-320.png",
+        "possiblePoints": 3,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 5,
+        "year": 1951,
+        "displayYear": "1951",
+        "description": "No. 6 (Violet, Green and Red) is a painting by the Latvian-American expressionist artist Mark Rothko.",
+        "detail": "<a href=\"https://www.nytimes.com/2023/10/25/arts/design/mark-rothko-review-paris.html\">Mark Rothko at Full Scale, and in Half Light</a>",
+        "image": "art-01-rothko-320.png",
+        "possiblePoints": 3,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 6,
+        "year": 1908,
+        "displayYear": "1907–8",
+        "description": "Hope II is an oil-on-canvas painting with added gold and platinum by the Austrian symbolist artist Gustav Klimt, depicting a pregnant woman with closed eyes.",
+        "detail": "<a href=\"https://www.nytimes.com/2024/04/24/arts/design/gustav-klimt-painting-auction.html\">Long-Lost Klimt Painting Sells for $37 Million at Auction</a>",
+        "image": "art-01-klimt-320.png",
+        "possiblePoints": 4,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 7,
+        "year": 1955,
+        "displayYear": "1955",
+        "description": "Flag is an encaustic painting by the American artist Jasper Johns.",
+        "detail": "<a href=\"https://www.nytimes.com/2019/02/18/t-magazine/jasper-johns.html\">Jasper Johns, American Legend</a>",
+        "image": "art-01-johns-320.png",
+        "possiblePoints": 4,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 8,
+        "year": 2005,
+        "displayYear": "2005",
+        "description": "Hot Bottoms by Ken Price watercolor on paper",
+        "detail": "<a href=\"https://www.nytimes.com/2012/02/25/arts/design/ken-price-sculptor-who-helped-elevate-ceramics-dies-at-77.html\">Ken Price, Sculptor Whose Artworks Helped Elevate Ceramics, Dies at 77</a>.",
+        "image": "art-01-price-320.png",
+        "possiblePoints": 4,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 9,
+        "year": 1987,
+        "displayYear": "1987",
+        "description": "Untitled (Dance) by Keith Haring",
+        "detail": "<a href=\"https://www.nytimes.com/2024/04/17/arts/design/keith-haring-brad-gooch.html\">Keith Haring’s Legacy Is Not Found at the Museum</a>",
+        "image": "art-01-haring-320.jpg",
+        "possiblePoints": 4,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    }
+]
