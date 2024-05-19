@@ -1,3 +1,5 @@
+"use client";
+
 import {cx} from "pretty-lights";
 import styles from "./progress-bar.module.css";
 

@@ -12,30 +12,34 @@ import Results from "./components/results";
 export default function Home() {
   const games = [
     {label: "Flashback: March 2, 2024", value: "nyt-2024-03-02.json"},
-    {label: "Flashback: March 9, 2024", value: "nyt-2024-03-09.json"},
+    {label: "Flashback: March 9, 2024", value: "nyt-2024-03-09a.json"},
   ];
 
   const [dragOverZone, setDragOverZone] = useState(-1); // -1 is no zone
   const [events, setEvents] = useState([]);
   const [game, setGame] = useState(games[0]);
   const [index, setIndex] = useState(0);
-  const [message, setMessage] = useState("TBD: Load game");
+  const [message, setMessage] = useState("");
 
   useEffect(() => {
-    console.log("Loading game...");
     const path = "/games/" + game.value;
     setMessage("Loading game (" + path + ")...");
+    setIndex(0);
+    setEvents([]);
+    setDragOverZone(-1);
     fetch(path, {
       cache: "no-cache",
       method: "GET",
       mode: "cors",
     }).then((response) => {
       if (!response.ok) {
-        setMessage("Problem loading game (" + response.status + "): " + response.statusText);
+        setMessage(
+          "Problem loading game (" + path + "): " + response.status + " " + response.statusText
+        );
         return;
       }
       response.json().then((data) => {
-        setMessage("Loaded");
+        setMessage("");
         setEvents(data);
       });
     });
@@ -81,6 +85,7 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
+      {message.length > 0 && <div className={styles.message}>{message}</div>}
       <GameSelect game={game} games={games} setGame={setGame} />
       <div className={styles.top_bar}>
         <ProgressBar events={events} index={index} />

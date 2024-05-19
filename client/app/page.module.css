@@ -1,9 +1,3 @@
-.index {
-  position: fixed;
-  bottom: 20px;
-  left: 20px;
-}
-
 .top_bar {
   position: fixed;
   top: 0;
@@ -15,4 +9,16 @@
 
 .bottom {
   padding-top: 250px;
+}
+
+.message {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 300;
+  color: #616161;
+  font-style: italic;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 10px 20px;
+  border-radius: 15px;
 }
