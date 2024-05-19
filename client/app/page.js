@@ -22,7 +22,7 @@ export default function Home() {
   const [message, setMessage] = useState("");
 
   useEffect(() => {
-    const path = "/games/" + game.value;
+    const path = "games/" + game.value;
     setMessage("Loading game (" + path + ")...");
     setIndex(0);
     setEvents([]);
