@@ -78,16 +78,16 @@ npx create-next-app@latest client --use-npm --js --app
 
 ## Quizzes
 
-- Art Quiz
-- Architecture: NY Bridges Quiz
-- Architecture: NY Buildings Quiz
-- Architecture: NY Parks Quiz
-- Books Quiz
-- Music Quiz
-- Hard Fork Quiz
-- Automobile Quiz
-- Movie Quiz
-- Broadway Play Quiz
-- Population: Countries Quiz
-- Population: US Cities Quiz
-- Population: World Cities Quiz
+- Art: Modern
+- Architecture: NY Bridges
+- Architecture: NY Buildings
+- Architecture: NY Parks
+- Population: Countries
+- Population: US Cities
+- Population: World Cities
+- Books
+- Music
+- Hard Fork
+- Automobiles: Hot Hatch
+- Movie: Mafia
+- Broadway Play: Musicals
