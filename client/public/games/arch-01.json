@@ -1,11 +1,11 @@
 [
     {
         "id": 1,
-        "year": 1913,
-        "displayYear": "1913",
-        "description": "The <b>Woolworth Building</b> is a 792-foot-tall residential building and early skyscraper at 233 Broadway in the Tribeca neighborhood of Lower Manhattan in New York City.",
-        "detail": "<a href=\"https://www.nytimes.com/2015/01/01/nyregion/off-limits-for-over-a-decade-lobby-of-woolworth-building-is-open-for-tours.html\">Woolworth Building’s Grand Arcade Is Once Again a Sight All Can See</a>",
-        "image": "arch-01-woolworth-320.png",
+        "year": 1903,
+        "displayYear": "1903",
+        "description": "The <b>Williamsburg Bridge</b> is a suspension bridge across the East River, connecting the Lower East Side of Manhattan with the Williamsburg neighborhood of Brooklyn.",
+        "detail": "",
+        "image": "arch-01-williamsburg-320.png",
         "possiblePoints": 0,
         "actualPoints": 0,
         "guess": "",
