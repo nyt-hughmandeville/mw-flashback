@@ -11,7 +11,8 @@ import Results from "./components/results";
 
 export default function Home() {
   const games = [
-    {label: "Architecture: NY Buildings", value: "arch-01.json"},
+    {label: "Architecture: NY Bridges", value: "arch-01.json"},
+    {label: "Architecture: NY Buildings", value: "arch-02.json"},
     {label: "Art: Modern", value: "art-01.json"},
     {label: "Flashback: March 2, 2024", value: "nyt-2024-03-02.json"},
   ];
