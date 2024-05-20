@@ -78,11 +78,11 @@ npx create-next-app@latest client --use-npm --js --app
 
 ## Quizzes
 
-- Art: Modern
 - Architecture: NY Bridges
 - Architecture: NY Buildings
 - Architecture: NY Museums
 - Architecture: NY Parks
+- Art: Modern
 - Population: Countries
 - Population: US Cities
 - Population: World Cities
@@ -92,4 +92,4 @@ npx create-next-app@latest client --use-npm --js --app
 - Automobiles: Hot Hatch
 - Movies: Mafia
 - Movies: Oscar Winners
-- Broadway Play: Musicals
+- Broadway: Musicals
