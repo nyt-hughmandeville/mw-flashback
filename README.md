@@ -81,6 +81,7 @@ npx create-next-app@latest client --use-npm --js --app
 - Art: Modern
 - Architecture: NY Bridges
 - Architecture: NY Buildings
+- Architecture: NY Museums
 - Architecture: NY Parks
 - Population: Countries
 - Population: US Cities
@@ -89,5 +90,6 @@ npx create-next-app@latest client --use-npm --js --app
 - Music
 - Hard Fork
 - Automobiles: Hot Hatch
-- Movie: Mafia
+- Movies: Mafia
+- Movies: Oscar Winners
 - Broadway Play: Musicals
