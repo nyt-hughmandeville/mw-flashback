@@ -88,7 +88,6 @@ npx create-next-app@latest client --use-npm --js --app
 - Population: World Cities
 - Books
 - Music
-- Hard Fork
 - Automobiles: TV & Film (done)
 - Movies: True Crime
 - Movies: Oscar Winners
