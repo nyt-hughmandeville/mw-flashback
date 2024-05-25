@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "year": 1978,
+        "displayYear": "1978",
+        "description": "<b>Ferrari 308 GTS</b> from <b>Magnum P.I.</b> season one.",
+        "detail": "",
+        "image": "cars-ferrari-magnum.png",
+        "possiblePoints": 0,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "start"
+    },
+    {
+        "id": 2,
+        "year": 1973,
+        "displayYear": "1973",
+        "description": "<b>Oldsmobile Delta 88</b> from <b>The Evil Dead</b> and other Sami Rami movies.",
+        "detail": "",
+        "image": "cars-oldsmobile-delta-88.png",
+        "possiblePoints": 3,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 3,
+        "year": 1964,
+        "displayYear": "1964",
+        "description": "<b>Aston Martin DB5</b> from <b>Goldfinger</b>.",
+        "detail": "",
+        "image": "cars-aston-martin-goldfinger.png",
+        "possiblePoints": 3,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 4,
+        "year": 1968,
+        "displayYear": "1968",
+        "description": "<b>Ford Mustang GT 390</b> from <b>Bullitt</b>.",
+        "detail": "",
+        "image": "cars-ford-bullitt.png",
+        "possiblePoints": 3,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 5,
+        "year": 1982,
+        "displayYear": "1982",
+        "description": "<b>K.I.T.T.</b>, the <b>Pontiac Firebird Trans Am</b> from <b>Knight Rider</b>.",
+        "detail": "",
+        "image": "cars-kitt.png",
+        "possiblePoints": 3,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 6,
+        "year": 1981,
+        "displayYear": "1981",
+        "description": "<b>DeLorean</b>from <b>Back to the Future</b>.",
+        "detail": "",
+        "image": "cars-delorean.png",
+        "possiblePoints": 4,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 7,
+        "year": 1969,
+        "displayYear": "1969",
+        "description": "<b>General Lee</b>, the <b>Dodge Charger</b> from <b>The Dukes of Hazzard</b>.",
+        "detail": "",
+        "image": "cars-general-lee.png",
+        "possiblePoints": 4,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 8,
+        "year": 1972,
+        "displayYear": "1972",
+        "description": "<b>Mystery Machine</b>, the <b>Bedford CF</b> from <b>Scooby-Doo</b>.",
+        "detail": "",
+        "image": "cars-mystery-machine.png",
+        "possiblePoints": 4,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 9,
+        "year": 1974,
+        "displayYear": "1974",
+        "description": "<b>Bluesmobile</b>, the <b>Dodge Monaco</b> from <b>The Blues Brother</b>.",
+        "detail": "",
+        "image": "cars-bluesmobile.png",
+        "possiblePoints": 4,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    }
+]
