@@ -7,6 +7,11 @@ export default function Guessing({index, events}) {
   }
   const event = events[index + 1];
 
+  let image = event?.image;
+  if (image && image.indexOf("http") !== 0) {
+    image = "images/" + image;
+  }
+
   return (
     <div className={styles.guessing}>
       <div
@@ -18,7 +23,7 @@ export default function Guessing({index, events}) {
         }}
       >
         <div className={styles.event_data}>
-          <img src={"images/" + event?.image} alt="" />
+          <img src={image} alt="" />
           <div
             className={styles.description}
             dangerouslySetInnerHTML={{__html: event?.description}}

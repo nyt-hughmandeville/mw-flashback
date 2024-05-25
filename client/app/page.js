@@ -15,6 +15,7 @@ export default function Home() {
     {label: "Architecture: NY Buildings", value: "arch-02.json"},
     {label: "Art: Modern", value: "art-01.json"},
     {label: "Flashback: March 2, 2024", value: "nyt-2024-03-02.json"},
+    {label: "Population: US Cities", value: "pop-us-cities.json"},
   ];
 
   const [dragOverZone, setDragOverZone] = useState(-1); // -1 is no zone

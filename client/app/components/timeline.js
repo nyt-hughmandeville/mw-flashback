@@ -42,12 +42,17 @@ export default function Timeline({dragOverZone, events, index, madeGuess, setDra
       yearClasses.push(styles.incorrect);
     }
 
+    let image = event?.image;
+    if (image && image.indexOf("http") !== 0) {
+      image = "images/" + image;
+    }
+
     // Push event.
     timeline.push(
       <div key={"event-" + i} className={styles.box_event} draggable="false">
         <div className={cx(yearClasses)}>{event.displayYear}</div>
         <div className={styles.event_data}>
-          <img src={"images/" + event.image} alt="" />
+          <img src={image} alt="" />
           <div
             className={styles.description}
             dangerouslySetInnerHTML={{__html: event?.description}}
