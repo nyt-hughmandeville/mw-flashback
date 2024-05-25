@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "year": 1978,
+        "displayYear": "1978",
+        "description": "<b>Ferrari 308 GTS</b> from <b>Magnum P.I.</b> season one.",
+        "detail": "",
+        "image": "cars-ferrari-magnum.png",
+        "possiblePoints": 0,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "start"
+    },
+    {
+        "id": 2,
+        "year": 1974,
+        "displayYear": "1974",
+        "description": "<b>Pontaic Firebird Esprit</b> from <b>Rockford Files</b>.",
+        "detail": "",
+        "image": "cars-pontiac-rockford-files.png",
+        "possiblePoints": 3,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 3,
+        "year": 1964,
+        "displayYear": "1964",
+        "description": "<b>Aston Martin DB5</b> in <b>Goldfinger</b>.",
+        "detail": "",
+        "image": "cars-aston-martin-goldfinger.png",
+        "possiblePoints": 3,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 4,
+        "year": 1968,
+        "displayYear": "1968",
+        "description": "<b>Ford Mustang GT 390</b> in <b>Bullitt</b>.",
+        "detail": "",
+        "image": "cars-porsche-911.jpg",
+        "possiblePoints": 3,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 5,
+        "year": 1982,
+        "displayYear": "1982",
+        "description": "<b>Kitt</b>, the <b>Pontiac Firebird Trans Am</b> from <b>Knight Rider</b>.",
+        "detail": "",
+        "image": "",
+        "possiblePoints": 3,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 6,
+        "year": 1981,
+        "displayYear": "1981",
+        "description": "<b>DeLorean</b>from <b>Back to the Future</b>.",
+        "detail": "",
+        "image": "",
+        "possiblePoints": 4,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 7,
+        "year": 1969,
+        "displayYear": "1969",
+        "description": "<b>General Lee<b>, the <b>Dodge Charger</b> from <b>The Dukes of Hazzard</b>.",
+        "detail": "",
+        "image": "https://static01.nyt.com/images/2024/02/15/multimedia/15hours-phoenix-01-lqfv/15hours-phoenix-01-lqfv-square320.jpg",
+        "possiblePoints": 4,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 8,
+        "year": 687788,
+        "displayYear": "687,788",
+        "description": "<b>Nashville</b>",
+        "detail": "",
+        "image": "https://static01.nyt.com/images/2023/03/09/multimedia/09hours-nashville-lede-01-lpwm/09hours-nashville-lede-01-lpwm-square320.jpg",
+        "possiblePoints": 4,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 9,
+        "year": 808988,
+        "displayYear": "808,988",
+        "description": "<b>San Francisco</b>",
+        "detail": "",
+        "image": "https://static01.nyt.com/images/2016/01/08/technology/08bits-sf/08bits-sf-square320.jpg",
+        "possiblePoints": 4,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    }
+]
