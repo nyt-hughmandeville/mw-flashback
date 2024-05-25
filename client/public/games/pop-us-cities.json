@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "year": 653833,
+        "displayYear": "653,833",
+        "description": "Boston",
+        "detail": "",
+        "image": "https://static01.nyt.com/images/2021/08/12/lens/12census-briefing-new-england1/12census-briefing-new-england1-square320.jpg",
+        "possiblePoints": 0,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "start"
+    },
+    {
+        "id": 2,
+        "year": 979882,
+        "displayYear": "979,882",
+        "description": "<b>Austin</b>",
+        "detail": "",
+        "image": "https://static01.nyt.com/images/2016/03/03/travel/06HOURS4/06HOURS4-square320.jpg",
+        "possiblePoints": 3,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 3,
+        "year": 3820914,
+        "displayYear": "3,820,914",
+        "description": "<b>Los Angeles</b>.",
+        "detail": "",
+        "image": "https://static01.nyt.com/images/2023/07/14/multimedia/14nat-company-town-qtmk/14nat-company-town-qtmk-square320.jpg",
+        "possiblePoints": 3,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 4,
+        "year": 2664452,
+        "displayYear": "2,664,452",
+        "description": "<b>Chicago</b>",
+        "detail": "",
+        "image": "https://static01.nyt.com/images/2023/09/28/multimedia/28hours-Chicago-pjzk/28hours-Chicago-pjzk-square320.jpg",
+        "possiblePoints": 3,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 5,
+        "year": 8258035,
+        "displayYear": "8,258,035",
+        "description": "<b>New York</b>",
+        "detail": "",
+        "image": "https://static01.nyt.com/images/2021/07/04/nyregion/04nytourists-return-domino/merlin_173526840_e90253fa-9de4-48bc-96eb-f225aae892c6-square320.jpg",
+        "possiblePoints": 3,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 6,
+        "year": 455924,
+        "displayYear": "455,924",
+        "description": "<b>Miami</b>",
+        "detail": "",
+        "image": "https://static01.nyt.com/images/2023/02/23/multimedia/23hours-miami-lede-tvcw/23hours-miami-lede-tvcw-square320.jpg",
+        "possiblePoints": 4,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 7,
+        "year": 1650070,
+        "displayYear": "1,650,070",
+        "description": "<b>Phoenix</b>",
+        "detail": "",
+        "image": "https://static01.nyt.com/images/2024/02/15/multimedia/15hours-phoenix-01-lqfv/15hours-phoenix-01-lqfv-square320.jpg",
+        "possiblePoints": 4,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 8,
+        "year": 687788,
+        "displayYear": "687,788",
+        "description": "<b>Nashville</b>",
+        "detail": "",
+        "image": "https://static01.nyt.com/images/2023/03/09/multimedia/09hours-nashville-lede-01-lpwm/09hours-nashville-lede-01-lpwm-square320.jpg",
+        "possiblePoints": 4,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 9,
+        "year": 808988,
+        "displayYear": "808,988",
+        "description": "<b>San Francisco</b>",
+        "detail": "",
+        "image": "https://static01.nyt.com/images/2016/01/08/technology/08bits-sf/08bits-sf-square320.jpg",
+        "possiblePoints": 4,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    }
+]
