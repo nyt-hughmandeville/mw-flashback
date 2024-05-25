@@ -14,6 +14,7 @@ export default function Home() {
     {label: "Architecture: NY Bridges", value: "arch-01.json"},
     {label: "Architecture: NY Buildings", value: "arch-02.json"},
     {label: "Art: Modern", value: "art-01.json"},
+    {label: "Automobiles: TV & Film", value: "cars-tv-film.json"},
     {label: "Flashback: March 2, 2024", value: "nyt-2024-03-02.json"},
     {label: "Population: US Cities", value: "pop-us-cities.json"},
   ];

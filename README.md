@@ -78,18 +78,18 @@ npx create-next-app@latest client --use-npm --js --app
 
 ## Quizzes
 
-- Architecture: NY Bridges
-- Architecture: NY Buildings
+- Architecture: NY Bridges (done)
+- Architecture: NY Buildings (done)
 - Architecture: NY Museums
 - Architecture: NY Parks
-- Art: Modern
+- Art: Modern (done)
 - Population: Countries
-- Population: US Cities
+- Population: US Cities (done)
 - Population: World Cities
 - Books
 - Music
 - Hard Fork
-- Automobiles: Hot Hatch
-- Movies: Mafia
+- Automobiles: TV & Film (done)
+- Movies: True Crime
 - Movies: Oscar Winners
 - Broadway: Musicals
