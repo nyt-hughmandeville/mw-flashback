@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "year": 1983,
+        "displayYear": "1983",
+        "description": "<b>Blue Monday</b> by <b>New Order</b>",
+        "detail": "",
+        "image": "music-blue-monday.jpg",
+        "possiblePoints": 0,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "start"
+    },
+    {
+        "id": 2,
+        "year": 1978,
+        "displayYear": "1978",
+        "description": "<b>The Robots</b> by <b>Kraftwerk</b>",
+        "detail": "",
+        "image": "music-kraftwerk.jpg",
+        "possiblePoints": 3,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 3,
+        "year": 1981,
+        "displayYear": "1981",
+        "description": "<b>Tainted Love</b> by <b>Soft Cell</b>",
+        "detail": "",
+        "image": "music-soft-cell.jpg",
+        "possiblePoints": 3,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 4,
+        "year": 1979,
+        "displayYear": "1979",
+        "description": "<b>Cars</b> by <b>Gary Numan</b>",
+        "detail": "",
+        "image": "music-cars.png",
+        "possiblePoints": 3,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 5,
+        "year": 1989,
+        "displayYear": "1989",
+        "description": "<b>Getting Away With It</b> by <b>Electronic</b>",
+        "detail": "",
+        "image": "music-electronic.jpg",
+        "possiblePoints": 3,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 6,
+        "year": 1988,
+        "displayYear": "1988",
+        "description": "<b>A Little Respect</b> by <b>Erasure</b>",
+        "detail": "",
+        "image": "music-erasure.jpg",
+        "possiblePoints": 4,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 7,
+        "year": 1986,
+        "displayYear": "1986",
+        "description": "<b>West End Girls</b> by <b>Pet Shop Boys</b>",
+        "detail": "",
+        "image": "music-pet-shop-boys.jpg",
+        "possiblePoints": 4,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 8,
+        "year": 1990,
+        "displayYear": "1990",
+        "description": "<b>Enjoy The Silence</b> by <b>Depeche Mode</b>",
+        "detail": "",
+        "image": ".jpg",
+        "possiblePoints": 4,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 9,
+        "year": 1982,
+        "displayYear": "1982",
+        "description": "<b>Only You</b> by <b>Yaz</b>",
+        "detail": "",
+        "image": "music-yaz.jpg",
+        "possiblePoints": 4,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    }
+]
