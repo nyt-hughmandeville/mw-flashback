@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "year": 1951,
+        "displayYear": "1951",
+        "description": "<b>The Catcher in the Rye</b>, J. D. Salinger's coming of age novel.",
+        "detail": "",
+        "image": "https://static01.nyt.com/images/2014/10/23/learning/CatcherCoversLN/CatcherCoversLN-square320.jpg",
+        "possiblePoints": 0,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "start"
+    },
+    {
+        "id": 2,
+        "year": 1960,
+        "displayYear": "1960",
+        "description": "<b>To Kill a Mockingbird</b> is a novel by the American author Harper Lee.",
+        "detail": "",
+        "image": "https://static01.nyt.com/images/2016/02/20/arts/20LEELISTY5/20LEELISTY5-square320-v2.jpg",
+        "possiblePoints": 3,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 3,
+        "year": 1813,
+        "displayYear": "1813",
+        "description": "<b>Pride and Prejudice</b> is Jane Austen's second novel.",
+        "detail": "",
+        "image": "https://static01.nyt.com/images/2013/02/13/books/review/bkr-Barchas-slides-slide-EWRT/bkr-Barchas-slides-slide-EWRT-square320.jpg",
+        "possiblePoints": 3,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 4,
+        "year": 1925,
+        "displayYear": "1925",
+        "description": "<b>The Great Gatsby</b> is a novel by F. Scott Fitzgerald's set in the Jazz era on Long Island.",
+        "detail": "",
+        "image": "https://static01.nyt.com/images/2021/01/15/books/15GREATGATSBY-COMBO/00GREATGATSBY-COMBO-square320.jpg",
+        "possiblePoints": 3,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 5,
+        "year": 1982,
+        "displayYear": "1982",
+        "description": "<b>Cats</b>",
+        "detail": "",
+        "image": "broadway-cats.png",
+        "possiblePoints": 3,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 6,
+        "year": 2015,
+        "displayYear": "2015",
+        "description": "<b>Hamilton</b>",
+        "detail": "",
+        "image": "https://static01.nyt.com/images/2015/02/18/arts/18HAMILTON/18HAMILTON-square320.jpg",
+        "possiblePoints": 4,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 7,
+        "year": 2003,
+        "displayYear": "2003",
+        "description": "<b>Wicked</b>",
+        "detail": "",
+        "image": "https://static01.nyt.com/images/2016/03/20/arts/15WICKED/15WICKED-square320.jpg",
+        "possiblePoints": 4,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 8,
+        "year": 1959,
+        "displayYear": "1959",
+        "description": "<b>The Sound of Music</b>",
+        "detail": "",
+        "image": "broadway-sound-of-music.png",
+        "possiblePoints": 4,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 9,
+        "year": 1957,
+        "displayYear": "1957",
+        "description": "<b>West Side Story</b>",
+        "detail": "",
+        "image": "https://static01.nyt.com/images/2020/01/05/arts/05wss-archive-main-sub/05wss-archive-main-sub-square320.jpg",
+        "possiblePoints": 4,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    }
+]
