@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "year": 2007,
+        "displayYear": "2007",
+        "description": "<b>L.A. Confidential</b>",
+        "detail": "",
+        "image": "https://static01.nyt.com/images/2016/09/21/obituaries/21xp-hanson2/21xp-hanson2-square320.jpg",
+        "possiblePoints": 0,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "start"
+    },
+    {
+        "id": 2,
+        "year": 1986,
+        "displayYear": "1986",
+        "description": "<b>Blue Velvet</b>, <b>David Lynch</b>'s unconventional film.",
+        "detail": "",
+        "image": "https://static01.nyt.com/images/2018/06/17/arts/17lynch-excerpts4/17lynch-excerpts4-square320.jpg",
+        "possiblePoints": 3,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 3,
+        "year": 1941,
+        "displayYear": "1941",
+        "description": "<b>The Maltese Falcon</b>",
+        "detail": "",
+        "image": "https://static01.nyt.com/images/2014/06/29/travel/20140629-NOIR-slide-H22J/20140629-NOIR-slide-H22J-square320.jpg",
+        "possiblePoints": 3,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 4,
+        "year": 1974,
+        "displayYear": "1974",
+        "description": "<b>Chinatown</b>",
+        "detail": "",
+        "image": "https://static01.nyt.com/images/2020/03/15/books/review/15Horowitz1-sub/00Horowitz1-sub-square320.jpg",
+        "possiblePoints": 3,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 5,
+        "year": 2011,
+        "displayYear": "2011",
+        "description": "<b>Drive</b>.",
+        "detail": "",
+        "image": "https://static01.nyt.com/images/2011/09/14/arts/video-drive-feature/video-drive-feature-filmstrip.jpg",
+        "possiblePoints": 3,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 6,
+        "year": 1982,
+        "displayYear": "1982",
+        "description": "<b>Blade Runner</b>",
+        "detail": "",
+        "image": "https://static01.nyt.com/images/2019/07/25/obituaries/24Hauer1/24Hauer1-square320.jpg",
+        "possiblePoints": 4,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 7,
+        "year": 1974,
+        "displayYear": "1974",
+        "description": "<b>The Town</b>",
+        "detail": "",
+        "image": "https://static01.nyt.com/images/2010/09/17/arts/17TOWN-2/SUB-TOWN-1284655088795-popup.jpg",
+        "possiblePoints": 4,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 8,
+        "year": 2000,
+        "displayYear": "2000",
+        "description": "<b>The Amazing Adventures of Kavalier &amp; Clay</b> is a novel by American author Michael Chabon that won the Pulitzer Prize for Fiction.",
+        "detail": "",
+        "image": "https://static01.nyt.com/images/2016/11/15/arts/15BOOKCHABON/15BOOKCHABON-square320.jpg",
+        "possiblePoints": 4,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 9,
+        "year": 1982,
+        "displayYear": "1982",
+        "description": "<b>Ham on Rye</b> is a semi-autobiographical novel by American author and poet Charles Bukowski.",
+        "detail": "",
+        "image": "https://static01.nyt.com/images/2005/12/29/books/buko450.jpg",
+        "possiblePoints": 4,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    }
+]
