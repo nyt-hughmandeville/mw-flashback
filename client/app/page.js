@@ -19,6 +19,7 @@ export default function Home() {
     {label: "Broadway: Musicals", value: "broadway-musicals.json"},
     {label: "Flashback: March 2, 2024", value: "nyt-2024-03-02.json"},
     {label: "Movies: Noir", value: "movies-noir.json"},
+    {label: "Music: Electronic", value: "music-electronic.json"},
     {label: "Population: US Cities", value: "pop-us-cities.json"},
   ];
 
