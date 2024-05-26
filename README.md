@@ -83,12 +83,13 @@ npx create-next-app@latest client --use-npm --js --app
 - Architecture: NY Museums
 - Architecture: NY Parks
 - Art: Modern (done)
+- Automobiles: TV & Film (done)
+- Books: Classics (done)
+- Broadway: Musicals (done)
 - Population: Countries
 - Population: US Cities (done)
 - Population: World Cities
-- Books
 - Music
-- Automobiles: TV & Film (done)
 - Movies: True Crime
 - Movies: Oscar Winners
-- Broadway: Musicals
+- Computers: History
