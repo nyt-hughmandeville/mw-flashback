@@ -91,4 +91,6 @@ npx create-next-app@latest client --use-npm --js --app
 - Population: Countries
 - Population: US Cities (done)
 - Population: World Cities
-- Computers: History
+- Computers: Personal Computers
+- Computers: Game Systems
+- Computers: Games
