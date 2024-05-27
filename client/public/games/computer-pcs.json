@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "year": 19820801,
+        "displayYear": "1982",
+        "description": "The <b>Commodore 64</b> is an 8-bit home computer.",
+        "detail": "",
+        "image": "computer-c64.png",
+        "possiblePoints": 0,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "start"
+    },
+    {
+        "id": 2,
+        "year": 19770610,
+        "displayYear": "1977",
+        "description": "<b>Apple II</b> was one of the first highly successful mass-produced microcomputer products, designed primarily by Steve Wozniak.",
+        "detail": "",
+        "image": "computer-apple-ii.png",
+        "possiblePoints": 3,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 3,
+        "year": 19810403,
+        "displayYear": "April, 1981",
+        "description": "<b>Osborne 1</b> was the first commercially successful portable computer.",
+        "detail": "",
+        "image": "computer-osborne.png",
+        "possiblePoints": 3,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 4,
+        "year": 19790101,
+        "displayYear": "1979",
+        "description": "The <b>Atari 800</b> was an 8-bit home computer.",
+        "detail": "",
+        "image": "computer-atari-800.png",
+        "possiblePoints": 3,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 5,
+        "year": 19840101,
+        "displayYear": "1984",
+        "description": "The New York Times described the original <b>Apple Macintosh</b> as revolutionary.",
+        "detail": "",
+        "image": "computer-mac.jpg",
+        "possiblePoints": 3,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 6,
+        "year": 19750101,
+        "displayYear": "1975",
+        "description": "The <b>Altair 8800</b> was a microcomputer designed by MITS. A favorite of early computer hobbyists in the Homebrew Computer Club",
+        "detail": "",
+        "image": "computer-altair.jpg",
+        "possiblePoints": 4,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 7,
+        "year": 19881001,
+        "displayYear": "1988",
+        "description": "The <b>NeXT Computer</b> was a Unix workstation designed for the higher-education market.",
+        "detail": "",
+        "image": "computer-next.png",
+        "possiblePoints": 4,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 8,
+        "year": 19830119,
+        "displayYear": "1983",
+        "description": "The <b>Apple Lisa</b> was the first mass-market personal computer operable through a graphical user interface.",
+        "detail": "",
+        "image": "computer-lisa.png",
+        "possiblePoints": 4,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 9,
+        "year": 19810812,
+        "displayYear": "August, 1981",
+        "description": "The Personal Computer released by IBM was know as the IBM 5150 or just the <b>IBM PC</b> and ran DOS provided by Microsoft.",
+        "detail": "",
+        "image": "computer-ibm-pc.png",
+        "possiblePoints": 4,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    }
+]
