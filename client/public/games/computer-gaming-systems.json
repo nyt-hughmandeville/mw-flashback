@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "year": 19851018,
+        "displayYear": "1985",
+        "description": "The <b>Nintendo Entertainment System (NES)</b> was an 8-bit home video game console produced by Nintendo. It was first released in Japan on July 15, 1983 and later in American test markets on October 18, 1985.",
+        "detail": "",
+        "image": "computer-nes.png",
+        "possiblePoints": 0,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "start"
+    },
+    {
+        "id": 2,
+        "year": 19770901,
+        "displayYear": "1977",
+        "description": "<b>Atari 2600</b> was a home video game console developed and produced by Atari, Inc.",
+        "detail": "",
+        "image": "computer-atari-2600.png",
+        "possiblePoints": 3,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 3,
+        "year": 19790603,
+        "displayYear": "1979",
+        "description": "The <b>Intellivision</b> was a home video game console released by Mattel Electronics.",
+        "detail": "",
+        "image": "computer-intellivision.png",
+        "possiblePoints": 3,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 4,
+        "year": 19890814,
+        "displayYear": "1989",
+        "description": "The <b>Sega Genesis</b> was a 16-bit home video game console developed and sold by Sega.",
+        "detail": "",
+        "image": "computer-sega-genesis.png",
+        "possiblePoints": 3,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 5,
+        "year": 20170303,
+        "displayYear": "2017",
+        "description": "The <b>Nintendo Switch</b> is a tablet that can be docked or used as a portable device.",
+        "detail": "",
+        "image": "computer-nintendo-switch.jpg",
+        "possiblePoints": 3,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 6,
+        "year": 19750101,
+        "displayYear": "1975",
+        "description": "The <b>Altair 8800</b> was a microcomputer designed by MITS. A favorite of early computer hobbyists in the Homebrew Computer Club",
+        "detail": "",
+        "image": "computer-altair.jpg",
+        "possiblePoints": 4,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 7,
+        "year": 19881001,
+        "displayYear": "1988",
+        "description": "The <b>NeXT Computer</b> was a Unix workstation designed for the higher-education market.",
+        "detail": "",
+        "image": "computer-next.png",
+        "possiblePoints": 4,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 8,
+        "year": 19830119,
+        "displayYear": "1983",
+        "description": "The <b>Apple Lisa</b> was the first mass-market personal computer operable through a graphical user interface.",
+        "detail": "",
+        "image": "computer-lisa.png",
+        "possiblePoints": 4,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    },
+    {
+        "id": 9,
+        "year": 19810812,
+        "displayYear": "August, 1981",
+        "description": "The Personal Computer released by IBM was know as the IBM 5150 or just the <b>IBM PC</b> and ran DOS provided by Microsoft.",
+        "detail": "",
+        "image": "computer-ibm-pc.png",
+        "possiblePoints": 4,
+        "actualPoints": 0,
+        "guess": "",
+        "status": "unanswered"
+    }
+]
