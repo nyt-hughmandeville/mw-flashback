@@ -86,10 +86,9 @@ npx create-next-app@latest client --use-npm --js --app
 - Automobiles: TV & Film (done)
 - Books: Classics (done)
 - Broadway: Musicals (done)
-- Movies: Film Noir
+- Movies: Film Noir (done)
+- Music: Electronic (done)
 - Population: Countries
 - Population: US Cities (done)
 - Population: World Cities
-- Music
-- Movies: Oscar Winners
 - Computers: History
