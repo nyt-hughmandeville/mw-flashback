@@ -86,11 +86,11 @@ npx create-next-app@latest client --use-npm --js --app
 - Automobiles: TV & Film (done)
 - Books: Classics (done)
 - Broadway: Musicals (done)
+- Computers: PCs (done)
+- Computers: Games
+- Computers: Game Systems
 - Movies: Film Noir (done)
 - Music: Electronic (done)
 - Population: Countries
 - Population: US Cities (done)
 - Population: World Cities
-- Computers: Personal Computers
-- Computers: Game Systems
-- Computers: Games

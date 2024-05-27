@@ -17,6 +17,7 @@ export default function Home() {
     {label: "Automobiles: TV & Film", value: "cars-tv-film.json"},
     {label: "Books: Classics", value: "books-classics.json"},
     {label: "Broadway: Musicals", value: "broadway-musicals.json"},
+    {label: "Computers: Gaming Systems", value: "computer-gaming-systems.json"},
     {label: "Computers: PCs", value: "computer-pcs.json"},
     //{label: "Flashback: March 2, 2024", value: "nyt-2024-03-02.json"},
     {label: "Movies: Noir", value: "movies-noir.json"},
