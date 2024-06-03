@@ -80,7 +80,7 @@ npx create-next-app@latest client --use-npm --js --app
 
 - Architecture: NY Bridges (done)
 - Architecture: NY Buildings (done)
-- Architecture: NY Museums
+- Architecture: NY Museums (done)
 - Architecture: NY Parks
 - Art: Modern (done)
 - Automobiles: TV & Film (done)
